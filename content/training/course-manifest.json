@@ -1,0 +1,101 @@
+{
+  "base_source": "Pasted text(4).txt",
+  "base_ids": [
+    "foundations",
+    "workspace",
+    "insights-notes",
+    "tools-library",
+    "infloww-shift",
+    "flow-intro",
+    "flow-opening",
+    "flow-purchase",
+    "flow-no-unlock",
+    "flow-no-pitch",
+    "flow-reference",
+    "no-pitch-practice",
+    "rapport-practice",
+    "pitch-method",
+    "pitch-timing",
+    "pitch-examples",
+    "aftercare",
+    "support-boundaries",
+    "support-service",
+    "mass-messages",
+    "daily-offers",
+    "records-retention",
+    "daily-followups",
+    "shift-preparation",
+    "daily-checklist"
+  ],
+  "base_sha256": "96ea3ce7c6413feb55509feda68f7fd11850ba1a8a8e9dc00f0990b1f05d0137",
+  "supplement_source": "supplement-2026-10-25.txt",
+  "supplement_ids": [
+    "mm-catalog",
+    "fan-preferences",
+    "fan-psychology",
+    "ppv-momentum",
+    "fan-welcome",
+    "ppv-caption-details",
+    "session-finish",
+    "objections",
+    "code-games"
+  ],
+  "supplement_sha256": "5b740e5775df421d58d5726a7e13fdc3436cd7ccac8f06c209c86b7d420403ef",
+  "chapters": 34,
+  "languages": [
+    "en",
+    "mk"
+  ],
+  "original_images": 15,
+  "english_verbatim": false,
+  "user_corrections": "user-corrections.json",
+  "published_base_sha256": "18b6552044f25bd50bc21e847ac9fcb18534e2fb7ff0fce4edc01adfe72e28e0",
+  "days": {
+    "1": [
+      "foundations",
+      "workspace",
+      "insights-notes",
+      "tools-library",
+      "infloww-shift"
+    ],
+    "2": [
+      "flow-intro",
+      "fan-preferences",
+      "fan-psychology",
+      "fan-welcome",
+      "flow-opening",
+      "flow-purchase",
+      "flow-no-unlock",
+      "flow-no-pitch",
+      "flow-reference",
+      "no-pitch-practice",
+      "rapport-practice"
+    ],
+    "3": [
+      "pitch-method",
+      "pitch-timing",
+      "pitch-examples",
+      "ppv-caption-details",
+      "ppv-momentum",
+      "aftercare",
+      "session-finish",
+      "objections",
+      "code-games"
+    ],
+    "4": [
+      "support-boundaries",
+      "support-service",
+      "mass-messages",
+      "mm-catalog",
+      "daily-offers",
+      "records-retention",
+      "daily-followups",
+      "shift-preparation",
+      "daily-checklist"
+    ]
+  },
+  "formatting_edits": "formatting-edits.json",
+  "user_clarifications": "user-clarifications.json",
+  "additional_images": 10,
+  "image_additions": "image-additions.json"
+}

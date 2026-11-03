@@ -1,0 +1,2037 @@
+[
+  {
+    "id": "p5-01",
+    "test_key": "practice-5",
+    "unit_id": "shift-preparation",
+    "prompt": {
+      "en": "When your shift starts, what should you do before sending random messages?",
+      "mk": "Кога започнува смената, што треба да направиш пред да испраќаш случајни пораки?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Review the chat histories and customer notes.",
+        "mk": "Прегледај ги претходните разговори и белешките за клиентите."
+      },
+      {
+        "id": "b",
+        "en": "Send the same offer to every customer.",
+        "mk": "Испрати ја истата понуда до секој клиент."
+      },
+      {
+        "id": "c",
+        "en": "Ignore the previous shift’s work.",
+        "mk": "Игнорирај ја работата од претходната смена."
+      },
+      {
+        "id": "d",
+        "en": "Clear all notes and start again.",
+        "mk": "Избриши ги сите белешки и започни одново."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "every shift should begin with preparation rather than immediately sending random messages.",
+    "explanation": {
+      "en": "Prepare first by reviewing conversations, recent offers and customer information.",
+      "mk": "Прво подготви се со преглед на разговорите, неодамнешните понуди и информациите за клиентите."
+    }
+  },
+  {
+    "id": "p5-02",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "How should customer labels be used across different shifts?",
+      "mk": "Како треба да се користат ознаките за клиентите во различни смени?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Invent new labels for every shift.",
+        "mk": "Измислувај нови ознаки за секоја смена."
+      },
+      {
+        "id": "b",
+        "en": "Use labels only you understand.",
+        "mk": "Користи ознаки што само ти ги разбираш."
+      },
+      {
+        "id": "c",
+        "en": "Choose labels at random.",
+        "mk": "Одбирај ознаки по случаен избор."
+      },
+      {
+        "id": "d",
+        "en": "Follow the same team system so the information stays consistent.",
+        "mk": "Следи го истиот систем на тимот за информациите да останат доследни."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "The specific emoji labels should follow the agency's established Notion system.",
+    "explanation": {
+      "en": "Use the team’s established labeling system so every chatter understands the records.",
+      "mk": "Користи го утврдениот систем за ознаки на тимот за секој чатер да ги разбира записите."
+    }
+  },
+  {
+    "id": "p5-03",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "A customer has made large purchases before. What should the next chatter learn from the notes?",
+      "mk": "Клиент претходно направил големи купувања. Што треба следниот чатер да дознае од белешките?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "That every future offer is already accepted.",
+        "mk": "Дека секоја идна понуда е веќе прифатена."
+      },
+      {
+        "id": "b",
+        "en": "That they should receive the same label as every inactive customer.",
+        "mk": "Дека треба да има иста ознака како секој неактивен клиент."
+      },
+      {
+        "id": "c",
+        "en": "That they have a history of high spending.",
+        "mk": "Дека има историја на големи купувања."
+      },
+      {
+        "id": "d",
+        "en": "That they are a new subscriber with no purchase history.",
+        "mk": "Дека е нов претплатник без претходни купувања."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "For example, if a customer has previously purchased expensive content, the next chatter should be able to identify them as a previous high spender.",
+    "explanation": {
+      "en": "Accurate spending labels help the next chatter identify a previous high spender.",
+      "mk": "Точните ознаки за трошење му помагаат на следниот четер да препознае претходен голем потрошувач."
+    }
+  },
+  {
+    "id": "p5-04",
+    "test_key": "practice-5",
+    "unit_id": "shift-preparation",
+    "prompt": {
+      "en": "You notice missing or incorrect customer information. What should you do?",
+      "mk": "Забележуваш дека недостигаат информации за клиентот или дека се погрешни. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Remove the customer from all future follow-ups.",
+        "mk": "Отстрани го клиентот од сите идни повторни контактирања."
+      },
+      {
+        "id": "b",
+        "en": "Update the information as part of your preparation.",
+        "mk": "Ажурирај ги податоците како дел од подготовката."
+      },
+      {
+        "id": "c",
+        "en": "Keep the old information until the next monthly script review.",
+        "mk": "Задржи ги старите податоци до следниот месечен преглед на скриптите."
+      },
+      {
+        "id": "d",
+        "en": "Ignore the record and treat every chat as a first conversation.",
+        "mk": "Игнорирај ги податоците и третирај го секој разговор како прв."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Update any inaccurate or missing information.",
+    "explanation": {
+      "en": "The preparation checklist explicitly says to update inaccurate or missing customer information.",
+      "mk": "Листата за подготовка изречно бара да се ажурираат неточните или недостасувачките податоци за клиентот."
+    }
+  },
+  {
+    "id": "p5-05",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "Why do clear customer notes help when another chatter takes over?",
+      "mk": "Зошто јасните белешки за клиентот помагаат кога друг чатер го презема разговорот?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "The conversation can stay consistent between chatters.",
+        "mk": "Разговорот може да остане доследен меѓу четерите."
+      },
+      {
+        "id": "b",
+        "en": "Each chatter can start the conversation from zero.",
+        "mk": "Секој четер може да го почне разговорот од нула."
+      },
+      {
+        "id": "c",
+        "en": "Previous purchases no longer need to be checked.",
+        "mk": "Повеќе нема потреба да се проверуваат претходните купувања."
+      },
+      {
+        "id": "d",
+        "en": "Customer labels can be different on every shift.",
+        "mk": "Ознаките за клиентите може да бидат различни во секоја смена."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "They also allow multiple chatters to work on the same account while maintaining continuity.",
+    "explanation": {
+      "en": "The guide connects organized records with continuity when several chatters handle the same account.",
+      "mk": "Водичот ги поврзува организираните податоци со континуитет кога повеќе четери работат на иста сметка."
+    }
+  },
+  {
+    "id": "p5-06",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "You want to reconnect with previous customers. Where should you start?",
+      "mk": "Сакаш повторно да стапиш во контакт со претходни клиенти. Од каде треба да започнеш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Send every past customer a paid offer immediately.",
+        "mk": "Веднаш испрати платена понуда до секој поранешен клиент."
+      },
+      {
+        "id": "b",
+        "en": "Delete old chats and use a new greeting for everyone.",
+        "mk": "Избриши ги старите разговори и користи нов поздрав за сите."
+      },
+      {
+        "id": "c",
+        "en": "Ignore all earlier purchases and replies.",
+        "mk": "Игнорирај ги сите претходни купувања и одговори."
+      },
+      {
+        "id": "d",
+        "en": "Review older chats for people who have not been contacted recently.",
+        "mk": "Прегледај постари разговори со луѓе што не биле контактирани неодамна."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Refiltering means going back through previous subscribers and customers to identify people who have not been contacted recently.",
+    "explanation": {
+      "en": "Review earlier customers and their conversations before choosing a suitable follow-up.",
+      "mk": "Прегледај ги претходните клиенти и нивните разговори пред да одбереш соодветно продолжување."
+    }
+  },
+  {
+    "id": "p5-07",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "Before messaging a fan who has been inactive, what should you review?",
+      "mk": "Што треба да прегледаш пред да му пишеш на фан што бил неактивен?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Only the creator’s latest upload.",
+        "mk": "Само последната објавена содржина на креаторката."
+      },
+      {
+        "id": "b",
+        "en": "The number of messages you sent to other customers.",
+        "mk": "Бројот на пораки што си им ги испратил на други клиенти."
+      },
+      {
+        "id": "c",
+        "en": "The previous discussion, last purchase and last response.",
+        "mk": "Претходниот разговор, последното купување и последниот одговор."
+      },
+      {
+        "id": "d",
+        "en": "Only whether a new mass message is scheduled.",
+        "mk": "Само дали е закажана нова масовна порака."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Check what was discussed previously, including their last purchase or last response.",
+    "explanation": {
+      "en": "The refiltering steps say to review what was previously discussed, including the last purchase or reply.",
+      "mk": "Чекорите за повторно филтрирање бараат преглед на претходниот разговор, вклучувајќи го последното купување или одговор."
+    }
+  },
+  {
+    "id": "p5-08",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "You contact an old customer again. What should the first message aim to do?",
+      "mk": "Повторно контактираш стар клиент. Што треба да постигне првата порака?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Move them directly into a VIP offer.",
+        "mk": "Веднаш да им се понуди VIP-пакет."
+      },
+      {
+        "id": "b",
+        "en": "Restart the conversation.",
+        "mk": "Повторно да се започне разговор."
+      },
+      {
+        "id": "c",
+        "en": "Immediately send the next paid offer.",
+        "mk": "Веднаш да се испрати следната платена понуда."
+      },
+      {
+        "id": "d",
+        "en": "Replace their previous purchase history.",
+        "mk": "Да се замени нивната претходна историја на купувања."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "The objective is to start a conversation, not immediately send another paid offer.",
+    "explanation": {
+      "en": "Start a conversation instead of immediately sending another paid offer.",
+      "mk": "Започни разговор наместо веднаш да испратиш друга платена понуда."
+    }
+  },
+  {
+    "id": "p5-09",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "A customer has been quiet for several weeks. What is a reasonable approach?",
+      "mk": "Клиент не одговара неколку недели. Кој е разумен пристап?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "They may still return, so an occasional relevant follow-up can be appropriate.",
+        "mk": "Сè уште може да се врати, па повремено соодветно контактирање може да има смисла."
+      },
+      {
+        "id": "b",
+        "en": "They will never return and their history has no further use.",
+        "mk": "Никогаш нема да се врати и неговата историја веќе не е корисна."
+      },
+      {
+        "id": "c",
+        "en": "They must now receive paid offers every day.",
+        "mk": "Сега мора да добива платени понуди секој ден."
+      },
+      {
+        "id": "d",
+        "en": "Their earlier spending category should automatically become VIP.",
+        "mk": "Нивната претходна категорија за трошење треба автоматски да стане VIP."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "A customer becoming inactive does not automatically mean they will never return.",
+    "explanation": {
+      "en": "The guide says inactivity does not automatically mean the customer will never return and recommends occasional, relevant follow-ups.",
+      "mk": "Водичот вели дека неактивноста не значи автоматски дека клиентот никогаш нема да се врати и препорачува повремени, релевантни пораки."
+    }
+  },
+  {
+    "id": "p5-10",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "A fan sends many messages. How do you know whether they are also a high spender?",
+      "mk": "Фан испраќа многу пораки. Како да знаеш дали и троши многу?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Assume every active fan spends a lot.",
+        "mk": "Претпостави дека секој активен фан троши многу."
+      },
+      {
+        "id": "b",
+        "en": "Judge only by how long their replies are.",
+        "mk": "Процени само според должината на одговорите."
+      },
+      {
+        "id": "c",
+        "en": "Count how many times they say hello.",
+        "mk": "Изброј колкупати се поздравуваат."
+      },
+      {
+        "id": "d",
+        "en": "Check their purchase history rather than the number of messages.",
+        "mk": "Провери ја историјата на купување наместо бројот на пораки."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "A \"whale\" is a customer who spends significantly more money than an average subscriber.",
+    "explanation": {
+      "en": "High spending is about purchases, not the number of messages a fan sends.",
+      "mk": "Големото трошење се однесува на купувањата, а не на бројот пораки што ги испраќа фанот."
+    }
+  },
+  {
+    "id": "p5-11",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "How should you balance offers and normal conversation with a high spender?",
+      "mk": "Како треба да ги усогласиш понудите и нормалниот разговор со клиент што троши многу?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Stop talking to them on days when they do not buy.",
+        "mk": "Не разговарај со нив во денови кога не купуваат."
+      },
+      {
+        "id": "b",
+        "en": "Use only mass messages once they become high spenders.",
+        "mk": "Користи само масовни пораки откако ќе станат големи потрошувачи."
+      },
+      {
+        "id": "c",
+        "en": "Avoid pitching them every day; some days can be normal conversation.",
+        "mk": "Избегнувај секојдневни понуди; некои денови може да има само обичен разговор."
+      },
+      {
+        "id": "d",
+        "en": "Pitch them every day because they have spent before.",
+        "mk": "Понудувај им секој ден бидејќи претходно трошеле."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Do not pitch whales every single day.",
+    "explanation": {
+      "en": "The guide warns against daily pitches to whales and recommends some days of simply talking.",
+      "mk": "Водичот предупредува против секојдневни понуди до големи потрошувачи и препорачува некои денови само да се разговара."
+    }
+  },
+  {
+    "id": "p5-12",
+    "test_key": "practice-5",
+    "unit_id": "records-retention",
+    "prompt": {
+      "en": "A regular high spender does not want to buy today. What should you still provide?",
+      "mk": "Редовен клиент што троши многу денес не сака да купи. Што сепак треба да му овозможиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "A new paid offer after every reply.",
+        "mk": "Нова платена понуда по секој одговор."
+      },
+      {
+        "id": "b",
+        "en": "Attention and good communication.",
+        "mk": "Внимание и добра комуникација."
+      },
+      {
+        "id": "c",
+        "en": "An automatic end to the conversation.",
+        "mk": "Автоматско завршување на разговорот."
+      },
+      {
+        "id": "d",
+        "en": "Repeated reminders of their past spending.",
+        "mk": "Повторени потсетувања за нивното претходно трошење."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "High spenders should still receive attention and good communication on days when they do not purchase anything.",
+    "explanation": {
+      "en": "The guide explicitly retains attention and good communication even on days without purchases.",
+      "mk": "Водичот изречно бара внимание и добра комуникација и во денови без купувања."
+    }
+  },
+  {
+    "id": "p5-13",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "Should a customer be required to tip before you continue normal conversation?",
+      "mk": "Дали клиентот треба да биде обврзан да даде бакшиш пред да продолжиш со нормален разговор?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "They should remain voluntary.",
+        "mk": "Треба да останат доброволни."
+      },
+      {
+        "id": "b",
+        "en": "They are required before any normal conversation.",
+        "mk": "Задолжителни се пред секој обичен разговор."
+      },
+      {
+        "id": "c",
+        "en": "They replace the need for a clear paid-service price.",
+        "mk": "Ја заменуваат потребата за јасна цена на платена услуга."
+      },
+      {
+        "id": "d",
+        "en": "They should be requested repeatedly when activity is quiet.",
+        "mk": "Треба постојано да се бараат кога активноста е мала."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Tips should remain voluntary.",
+    "explanation": {
+      "en": "The guide says tips remain voluntary and favors meaningful interactions over random requests for money.",
+      "mk": "Водичот вели дека бакшишите остануваат доброволни и дава предност на смислена комуникација наместо на случајни барања за пари."
+    }
+  },
+  {
+    "id": "p5-14",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "Your replies keep repeating “Unlock this.” What should you improve?",
+      "mk": "Твоите одговори постојано повторуваат „Отклучи го ова.“ Што треба да подобриш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Repeat the same command more often.",
+        "mk": "Почесто повторувај ја истата наредба."
+      },
+      {
+        "id": "b",
+        "en": "Hide that the content costs money.",
+        "mk": "Скриј дека содржината се плаќа."
+      },
+      {
+        "id": "c",
+        "en": "Reply with nothing except a price.",
+        "mk": "Одговарај само со цена."
+      },
+      {
+        "id": "d",
+        "en": "Use natural wording that fits the chat, while keeping payment details clear.",
+        "mk": "Користи природни зборови што одговараат на разговорот, со јасни детали за плаќањето."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Avoid repeating identical selling commands. Use natural language while being transparent about paid content.",
+    "explanation": {
+      "en": "Use conversational language and be clear about paid content.",
+      "mk": "Користи разговорен јазик и биди јасен за платената содржина."
+    }
+  },
+  {
+    "id": "p5-15",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "A customer has just declined an offer. What should you do before trying another sale?",
+      "mk": "Клиент штотуку одбил понуда. Што треба да направиш пред да пробаш друга продажба?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Send a different paid offer immediately.",
+        "mk": "Веднаш испрати поинаква платена понуда."
+      },
+      {
+        "id": "b",
+        "en": "Ask the next chatter to repeat it straight away.",
+        "mk": "Побарај следниот чатер веднаш да ја повтори."
+      },
+      {
+        "id": "c",
+        "en": "Give them space and respect the guide’s waiting period.",
+        "mk": "Дај му простор и почитувај го периодот на чекање од водичот."
+      },
+      {
+        "id": "d",
+        "en": "Send several cheaper offers until one works.",
+        "mk": "Испраќај неколку поевтини понуди додека некоја не успее."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Wait another 24 hours before attempting a new pitch.",
+    "explanation": {
+      "en": "The guide says to wait another 24 hours before a new pitch after an unsuccessful offer.",
+      "mk": "Водичот вели да почекаш уште 24 часа пред нова понуда по неуспешна понуда."
+    }
+  },
+  {
+    "id": "p5-16",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "An offer did not lead to a purchase. What should your notes help the next chatter understand?",
+      "mk": "Понуда не довела до купување. Што треба твоите белешки да му помогнат да разбере на следниот чатер?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "A replacement price chosen without checking the price list.",
+        "mk": "Заменска цена избрана без проверка на ценовникот."
+      },
+      {
+        "id": "b",
+        "en": "The unsuccessful pitch and relevant chat history.",
+        "mk": "Неуспешната понуда и соодветната историја на разговорот."
+      },
+      {
+        "id": "c",
+        "en": "Only the number of customers currently online.",
+        "mk": "Само бројот на клиенти што моментално се онлајн."
+      },
+      {
+        "id": "d",
+        "en": "Only the next shift’s starting time.",
+        "mk": "Само времето на почеток на следната смена."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Record the unsuccessful pitch or check the previous chat history.",
+    "explanation": {
+      "en": "The failed-pitch steps require recording the unsuccessful offer or checking previous chat history.",
+      "mk": "Чекорите по неуспешна понуда бараат таа да се запише или да се провери претходната историја на разговорот."
+    }
+  },
+  {
+    "id": "p5-17",
+    "test_key": "practice-5",
+    "unit_id": "daily-checklist",
+    "prompt": {
+      "en": "Before quoting a price on your shift, which reference should you use?",
+      "mk": "Пред да дадеш цена во твојата смена, кој извор треба да го користиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "The approved pricing information for that creator.",
+        "mk": "Одобрените информации за цени за таа креаторка."
+      },
+      {
+        "id": "b",
+        "en": "The cheapest price you remember from another account.",
+        "mk": "Најевтината цена што ја паметиш од друга сметка."
+      },
+      {
+        "id": "c",
+        "en": "A price you invent to get a quick sale.",
+        "mk": "Цена што ќе ја измислиш за брза продажба."
+      },
+      {
+        "id": "d",
+        "en": "Only the amount the fan offers to pay.",
+        "mk": "Само износот што фанот нуди да го плати."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Check approved content pricing and creator information.",
+    "explanation": {
+      "en": "Check approved content pricing and creator information during shift preparation.",
+      "mk": "При подготовка за смена, провери ги одобрените цени за содржина и информациите за креаторката."
+    }
+  },
+  {
+    "id": "p5-18",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "After a purchase, how should you continue before considering anything else to sell?",
+      "mk": "По купување, како треба да продолжиш пред да размислиш за нешто друго за продавање?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Replace every reply with another payment request.",
+        "mk": "Замени го секој одговор со ново барање за плаќање."
+      },
+      {
+        "id": "b",
+        "en": "Stop talking until another item is bought.",
+        "mk": "Престани да зборуваш додека не се купи друга содржина."
+      },
+      {
+        "id": "c",
+        "en": "Assume the customer has agreed to all future offers.",
+        "mk": "Претпостави дека клиентот се согласил на сите идни понуди."
+      },
+      {
+        "id": "d",
+        "en": "Acknowledge the purchase and keep the conversation natural.",
+        "mk": "Потврди го купувањето и продолжи природно со разговорот."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Allow the conversation to develop without immediately introducing another product.",
+    "explanation": {
+      "en": "Keep talking after a purchase. Do not immediately turn the conversation into another sale.",
+      "mk": "Продолжи да разговараш по купување. Не претворај го разговорот веднаш во друга продажба."
+    }
+  },
+  {
+    "id": "p5-19",
+    "test_key": "practice-5",
+    "unit_id": "daily-followups",
+    "prompt": {
+      "en": "A customer says they cannot access what they bought. What should you focus on?",
+      "mk": "Клиент вели дека нема пристап до она што го купил. На што треба да се фокусираш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Moving directly to customer labeling and ending the chat.",
+        "mk": "Веднаш да преминеш на означување клиенти и да го завршиш разговорот."
+      },
+      {
+        "id": "b",
+        "en": "Treating the purchase as complete without further communication.",
+        "mk": "Да го сметаш купувањето за завршено без понатамошна комуникација."
+      },
+      {
+        "id": "c",
+        "en": "Making sure they receive the purchase and addressing the issue.",
+        "mk": "Да се осигуриш дека го добива купеното и да го решиш проблемот."
+      },
+      {
+        "id": "d",
+        "en": "Offering another product before discussing the issue.",
+        "mk": "Да понудиш друг производ пред да го разгледаш проблемот."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Make sure the customer receives what they paid for and address any issues.",
+    "explanation": {
+      "en": "The aftercare instructions include checking that the customer receives what they paid for and addressing problems.",
+      "mk": "Упатствата за комуникација по купување вклучуваат проверка дали клиентот го добил платеното и решавање на проблемите."
+    }
+  },
+  {
+    "id": "p5-20",
+    "test_key": "practice-5",
+    "unit_id": "shift-preparation",
+    "prompt": {
+      "en": "When reading an earlier chat, what should you look for before replying?",
+      "mk": "Кога читаш претходен разговор, што треба да побараш пред да одговориш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "An automatic reason to introduce a new offer.",
+        "mk": "Автоматска причина да воведеш нова понуда."
+      },
+      {
+        "id": "b",
+        "en": "Questions that have not yet been answered.",
+        "mk": "Прашања на кои сè уште не е одговорено."
+      },
+      {
+        "id": "c",
+        "en": "A reason to ignore the previous topic.",
+        "mk": "Причина да ја игнорираш претходната тема."
+      },
+      {
+        "id": "d",
+        "en": "A chance to replace all existing notes.",
+        "mk": "Можност да ги замениш сите постојни белешки."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Look for previous questions that have not been answered.",
+    "explanation": {
+      "en": "The shift-preparation guide specifically tells chatters to identify unanswered questions.",
+      "mk": "Водичот за подготовка на смена посебно бара четерите да ги забележат неодговорените прашања."
+    }
+  },
+  {
+    "id": "p5-21",
+    "test_key": "practice-5",
+    "unit_id": "shift-preparation",
+    "prompt": {
+      "en": "You take over a chat from the previous shift. How should you begin your reply?",
+      "mk": "Преземаш разговор од претходната смена. Како треба да го започнеш одговорот?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Continue from the previous conversation.",
+        "mk": "Продолжи од претходниот разговор."
+      },
+      {
+        "id": "b",
+        "en": "Start over as though the customer has never messaged.",
+        "mk": "Почни одново како клиентот никогаш да не пишувал."
+      },
+      {
+        "id": "c",
+        "en": "Ask all introductory questions again regardless of the notes.",
+        "mk": "Повторно постави ги сите воведни прашања без оглед на белешките."
+      },
+      {
+        "id": "d",
+        "en": "Send an unrelated offer to establish a new topic.",
+        "mk": "Испрати неповрзана понуда за да воспоставиш нова тема."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "When responding to a customer, continue from the previous conversation.",
+    "explanation": {
+      "en": "The guide says to continue naturally from earlier interactions instead of restarting from zero.",
+      "mk": "Водичот бара природно продолжување на претходните разговори наместо повторно почнување од нула."
+    }
+  },
+  {
+    "id": "p5-22",
+    "test_key": "practice-5",
+    "unit_id": "support-boundaries",
+    "prompt": {
+      "en": "In EVZON’s guides, which platform does the AI-model section apply to?",
+      "mk": "Во водичите на EVZON, за која платформа важи делот за AI модели?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "OnlyFans only.",
+        "mk": "Само за OnlyFans."
+      },
+      {
+        "id": "b",
+        "en": "Both platforms without any difference.",
+        "mk": "За двете платформи без никаква разлика."
+      },
+      {
+        "id": "c",
+        "en": "Neither platform.",
+        "mk": "За ниту една платформа."
+      },
+      {
+        "id": "d",
+        "en": "Fanvue only.",
+        "mk": "Само за Fanvue."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "**Fanvue only:** At EVZON, OnlyFans work is with real models. Around 90% of our Fanvue assignments are with AI models.",
+    "explanation": {
+      "en": "The AI-model guidance is for Fanvue only. EVZON’s OnlyFans work is with real models.",
+      "mk": "Насоките за AI модели се само за Fanvue. Работата на EVZON на OnlyFans е со вистински модели."
+    }
+  },
+  {
+    "id": "p5-23",
+    "test_key": "practice-5",
+    "unit_id": "daily-checklist",
+    "prompt": {
+      "en": "The inbox is quiet for a while. What useful task can you do?",
+      "mk": "Сандачето е мирно некое време. Која корисна задача можеш да ја направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Stop checking for new subscribers until activity increases.",
+        "mk": "Престани да проверуваш за нови претплатници додека активноста не се зголеми."
+      },
+      {
+        "id": "b",
+        "en": "Leave customer notes unchanged until the next month.",
+        "mk": "Остави ги белешките за клиентите непроменети до следниот месец."
+      },
+      {
+        "id": "c",
+        "en": "Review earlier customers and suitable occasional re-engagement opportunities.",
+        "mk": "Прегледај претходни клиенти и соодветни можности за повремено повторно контактирање."
+      },
+      {
+        "id": "d",
+        "en": "Send the same new paid offer to every inactive subscriber.",
+        "mk": "Испрати ја истата нова платена понуда до секој неактивен претплатник."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Contact inactive subscribers occasionally.",
+    "explanation": {
+      "en": "The quiet-period checklist includes reviewing previous customers, appropriate re-engagement and occasional contact with inactive subscribers.",
+      "mk": "Листата за мирни периоди вклучува преглед на претходни клиенти, соодветно повторно вклучување и повремено контактирање неактивни претплатници."
+    }
+  },
+  {
+    "id": "p5-24",
+    "test_key": "practice-5",
+    "unit_id": "infloww-shift",
+    "prompt": {
+      "en": "You are leaving while a customer’s conversation is unfinished. What should you leave for the next chatter?",
+      "mk": "Заминуваш додека разговорот со клиентот е незавршен. Што треба да оставиш за следниот чатер?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Remove the customer’s notes so the next shift starts fresh.",
+        "mk": "Отстрани ги белешките за клиентот за следната смена да почне одново."
+      },
+      {
+        "id": "b",
+        "en": "Hand the conversation over properly with a note.",
+        "mk": "Предај го разговорот правилно, со белешка."
+      },
+      {
+        "id": "c",
+        "en": "Leave the conversation without context for the next chatter.",
+        "mk": "Остави го разговорот без контекст за следниот четер."
+      },
+      {
+        "id": "d",
+        "en": "Start a separate conversation and abandon the existing one.",
+        "mk": "Почни одделен разговор и напушти го постојниот."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Hand over mid-deal conversations properly, with a note.",
+    "explanation": {
+      "en": "The tool-etiquette section requires a note when handing over an unfinished deal.",
+      "mk": "Делот за правилно користење на алатките бара белешка при предавање незавршен договор."
+    }
+  },
+  {
+    "id": "p5-25",
+    "test_key": "practice-5",
+    "unit_id": "infloww-shift",
+    "prompt": {
+      "en": "What should you do with unfinished drafts when logging out?",
+      "mk": "Што треба да направиш со незавршените нацрти при одјавување?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Log out cleanly without leaving drafts.",
+        "mk": "Одјави се правилно без да оставаш нацрт-пораки."
+      },
+      {
+        "id": "b",
+        "en": "Leave unfinished drafts for customers to interpret later.",
+        "mk": "Остави недовршени нацрти за клиентите подоцна да ги протолкуваат."
+      },
+      {
+        "id": "c",
+        "en": "Keep the session open so nobody needs to sign in again.",
+        "mk": "Остави ја сесијата отворена за никој повторно да не се најавува."
+      },
+      {
+        "id": "d",
+        "en": "Share your login so the next chatter can finish your drafts.",
+        "mk": "Сподели ги твоите податоци за најава за следниот четер да ги доврши нацртите."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Log out cleanly, don't leave drafts.",
+    "explanation": {
+      "en": "The guide’s tool etiquette explicitly says to log out cleanly and leave no drafts.",
+      "mk": "Правилата за користење на алатките изречно бараат правилно одјавување без оставање нацрт-пораки."
+    }
+  },
+  {
+    "id": "f-01",
+    "test_key": "final",
+    "unit_id": "workspace",
+    "prompt": {
+      "en": "You are about to send a message while managing two creator accounts. What should you check?",
+      "mk": "Ќе испратиш порака додека работиш со две сметки на креаторки. Што треба да провериш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "That you are sending from the correct creator’s account.",
+        "mk": "Дека испраќаш од сметката на точната креаторка."
+      },
+      {
+        "id": "b",
+        "en": "Only how many fans are online.",
+        "mk": "Само колку фанови се онлајн."
+      },
+      {
+        "id": "c",
+        "en": "Only which account has fewer unread messages.",
+        "mk": "Само која сметка има помалку непрочитани пораки."
+      },
+      {
+        "id": "d",
+        "en": "Nothing, because both accounts share a dashboard.",
+        "mk": "Ништо, затоа што двете сметки се во ист панел."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "always check which account you're typing into before sending.",
+    "explanation": {
+      "en": "Always check the creator account before sending a message.",
+      "mk": "Секогаш провери ја сметката на креаторката пред да испратиш порака."
+    }
+  },
+  {
+    "id": "f-02",
+    "test_key": "final",
+    "unit_id": "workspace",
+    "prompt": {
+      "en": "Another chatter asks to borrow your login for a shift. What should you do?",
+      "mk": "Друг чатер бара да ја позајми твојата најава за една смена. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Share it because they work for the same team.",
+        "mk": "Сподели ја затоа што работи во истиот тим."
+      },
+      {
+        "id": "b",
+        "en": "Share it as long as you are both online.",
+        "mk": "Сподели ја сè додека двајцата сте онлајн."
+      },
+      {
+        "id": "c",
+        "en": "Send the password and change it next month.",
+        "mk": "Испрати ја лозинката и смени ја следниот месец."
+      },
+      {
+        "id": "d",
+        "en": "Keep your login private and do not share it.",
+        "mk": "Чувај ја твојата најава приватна и не ја споделувај."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "A login you don't share with anyone.",
+    "explanation": {
+      "en": "Your login must not be shared with anyone.",
+      "mk": "Твоите податоци за најава не смеат да се споделуваат со никого."
+    }
+  },
+  {
+    "id": "f-03",
+    "test_key": "final",
+    "unit_id": "tools-library",
+    "prompt": {
+      "en": "A saved reply could help, but its opening does not match this fan’s message. What should you do?",
+      "mk": "Зачуван одговор може да помогне, но почетокот не одговара на пораката на овој фан. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Send it word for word anyway.",
+        "mk": "Сепак испрати го збор по збор."
+      },
+      {
+        "id": "b",
+        "en": "Ignore the fan and send the whole script.",
+        "mk": "Игнорирај го фанот и испрати ја целата скрипта."
+      },
+      {
+        "id": "c",
+        "en": "Adapt the opening to what this fan said.",
+        "mk": "Приспособи го почетокот на она што го кажал овој фан."
+      },
+      {
+        "id": "d",
+        "en": "Wait until next month before changing the wording.",
+        "mk": "Почекај до следниот месец пред да ги смениш зборовите."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Don't fire them verbatim. Use them as skeletons and personalise the first line.",
+    "explanation": {
+      "en": "Saved messages are a starting point. Personalize the first line.",
+      "mk": "Зачуваните пораки се основа. Приспособи ја првата реченица."
+    }
+  },
+  {
+    "id": "f-04",
+    "test_key": "final",
+    "unit_id": "tools-library",
+    "prompt": {
+      "en": "A fan asks for a specific item you know is in the content library. What should you do?",
+      "mk": "Фан бара одредена содржина што знаеш дека ја има во збирката. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Send a random item without checking.",
+        "mk": "Испрати случајна содржина без проверка."
+      },
+      {
+        "id": "b",
+        "en": "Search for the matching content.",
+        "mk": "Пребарај ја соодветната содржина."
+      },
+      {
+        "id": "c",
+        "en": "Ask another fan to find it.",
+        "mk": "Побарај друг фан да ја најде."
+      },
+      {
+        "id": "d",
+        "en": "Promise something different without asking.",
+        "mk": "Вети нешто друго без да прашаш."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Use search when a fan asks for something specific.",
+    "explanation": {
+      "en": "Use the content search for specific requests.",
+      "mk": "Користи го пребарувањето содржини за конкретни барања."
+    }
+  },
+  {
+    "id": "f-05",
+    "test_key": "final",
+    "unit_id": "support-boundaries",
+    "prompt": {
+      "en": "You are working on an OnlyFans account. How does EVZON’s AI-model guidance apply?",
+      "mk": "Работиш на сметка на OnlyFans. Како важат насоките на EVZON за AI модели?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "It is for Fanvue only; OnlyFans work is with real models.",
+        "mk": "Тие се само за Fanvue; работата на OnlyFans е со вистински модели."
+      },
+      {
+        "id": "b",
+        "en": "It applies only to OnlyFans.",
+        "mk": "Тие важат само за OnlyFans."
+      },
+      {
+        "id": "c",
+        "en": "Every OnlyFans account should be treated as an AI model.",
+        "mk": "Секоја сметка на OnlyFans треба да се третира како AI модел."
+      },
+      {
+        "id": "d",
+        "en": "There is no difference between the platforms in the guide.",
+        "mk": "Во водичот нема разлика меѓу платформите."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "**Fanvue only:** At EVZON, OnlyFans work is with real models. Around 90% of our Fanvue assignments are with AI models.",
+    "explanation": {
+      "en": "The guide marks AI-model information as Fanvue only and says OnlyFans work is with real models.",
+      "mk": "Водичот ги означува информациите за AI модели како само за Fanvue и наведува дека работата на OnlyFans е со вистински модели."
+    }
+  },
+  {
+    "id": "f-06",
+    "test_key": "final",
+    "unit_id": "insights-notes",
+    "prompt": {
+      "en": "A fan bought a set during your shift. What purchase information should the next chatter see?",
+      "mk": "Фан купил сет за време на твојата смена. Кои информации за купувањето треба да ги види следниот чатер?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Only that they were online.",
+        "mk": "Само дека бил онлајн."
+      },
+      {
+        "id": "b",
+        "en": "Only the number of messages they sent.",
+        "mk": "Само бројот на пораки што ги испратил."
+      },
+      {
+        "id": "c",
+        "en": "No purchase details after the shift ends.",
+        "mk": "Никакви детали за купувањето по крајот на смената."
+      },
+      {
+        "id": "d",
+        "en": "Which set they bought and when.",
+        "mk": "Кој сет го купил и кога."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "What he bought and when.",
+    "explanation": {
+      "en": "Record what the fan bought and when so the next chatter has the context.",
+      "mk": "Запиши што купил фанот и кога, за следниот чатер да го има контекстот."
+    }
+  },
+  {
+    "id": "f-07",
+    "test_key": "final",
+    "unit_id": "insights-notes",
+    "prompt": {
+      "en": "You are the first person to message a new fan. What is the right opening approach?",
+      "mk": "Ти прв му пишуваш на нов фан. Кој е правилниот почетен пристап?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Start with the most expensive offer.",
+        "mk": "Започни со најскапата понуда."
+      },
+      {
+        "id": "b",
+        "en": "Ask for a tip before answering.",
+        "mk": "Побарај бакшиш пред да одговориш."
+      },
+      {
+        "id": "c",
+        "en": "Welcome them and get to know them before selling.",
+        "mk": "Поздрави го и запознај го пред да продаваш."
+      },
+      {
+        "id": "d",
+        "en": "Assume they already know the account well.",
+        "mk": "Претпостави дека веќе добро ја познава сметката."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Never spoken before → open with rapport, no pitch.",
+    "explanation": {
+      "en": "For a first conversation, build familiarity without opening with a pitch.",
+      "mk": "Во првиот разговор, запознај го клиентот без да започнеш со понуда."
+    }
+  },
+  {
+    "id": "f-08",
+    "test_key": "final",
+    "unit_id": "shift-preparation",
+    "prompt": {
+      "en": "You take over a chat with earlier messages and an unanswered question. What comes first?",
+      "mk": "Преземаш разговор со претходни пораки и неодговорено прашање. Што е прво?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Start the whole introduction again.",
+        "mk": "Започни го целиот вовед повторно."
+      },
+      {
+        "id": "b",
+        "en": "Read the history so you can continue from where it left off.",
+        "mk": "Прочитај ја историјата за да продолжиш од таму каде што застанал разговорот."
+      },
+      {
+        "id": "c",
+        "en": "Repeat the last offer without checking the response.",
+        "mk": "Повтори ја последната понуда без да го провериш одговорот."
+      },
+      {
+        "id": "d",
+        "en": "Delete the earlier messages.",
+        "mk": "Избриши ги претходните пораки."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Every chatter must understand the state of a conversation before taking it over.",
+    "explanation": {
+      "en": "Understand the existing conversation before taking it over.",
+      "mk": "Разбери го постојниот разговор пред да го преземеш."
+    }
+  },
+  {
+    "id": "f-09",
+    "test_key": "final",
+    "unit_id": "flow-opening",
+    "prompt": {
+      "en": "A subscriber says hello and asks how your day is going. What is a good reply approach?",
+      "mk": "Претплатник се поздравува и прашува како ти поминува денот. Кој е добар пристап за одговор?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Answer naturally and start a conversation.",
+        "mk": "Одговори природно и започни разговор."
+      },
+      {
+        "id": "b",
+        "en": "Send a paid offer without answering the question.",
+        "mk": "Испрати платена понуда без да одговориш на прашањето."
+      },
+      {
+        "id": "c",
+        "en": "Wait for them to pay before acknowledging them.",
+        "mk": "Почекај да плати пред да му обрнеш внимание."
+      },
+      {
+        "id": "d",
+        "en": "Send the same unrelated line to everyone.",
+        "mk": "Испрати ја истата неповрзана реченица до сите."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Start naturally, as a normal person would. Establish a conversation before attempting to sell anything.",
+    "explanation": {
+      "en": "Begin with normal conversation before attempting a sale.",
+      "mk": "Започни со нормален разговор пред да се обидеш да продадеш."
+    }
+  },
+  {
+    "id": "f-10",
+    "test_key": "final",
+    "unit_id": "flow-opening",
+    "prompt": {
+      "en": "A fan seems uncomfortable when you make the conversation more personal. What should you do?",
+      "mk": "Фанот се чувствува непријатно кога го правиш разговорот поличен. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Keep escalating the same tone.",
+        "mk": "Продолжи да го засилуваш истиот тон."
+      },
+      {
+        "id": "b",
+        "en": "Ignore their reaction and send a paid offer.",
+        "mk": "Игнорирај ја реакцијата и испрати платена понуда."
+      },
+      {
+        "id": "c",
+        "en": "Treat discomfort as proof they want more.",
+        "mk": "Сметај ја непријатноста за доказ дека сака повеќе."
+      },
+      {
+        "id": "d",
+        "en": "Return to normal conversation without pushing further.",
+        "mk": "Врати се на нормален разговор без дополнителен притисок."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "If the customer pulls back, take the no-pitch path instead.",
+    "explanation": {
+      "en": "If the customer pulls back, keep the conversation normal and stop pushing.",
+      "mk": "Ако клиентот се повлече, задржи нормален разговор и престани да притискаш."
+    }
+  },
+  {
+    "id": "f-11",
+    "test_key": "final",
+    "unit_id": "flow-opening",
+    "prompt": {
+      "en": "A fan keeps replying, but has not shown interest in a more intimate tone. What should guide you?",
+      "mk": "Фан продолжува да одговара, но не покажал интерес за поинтимен тон. Што треба да те води?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Any reply means they want a more intimate tone.",
+        "mk": "Секој одговор значи дека сака поинтимен тон."
+      },
+      {
+        "id": "b",
+        "en": "Past purchases mean you can ignore their current reaction.",
+        "mk": "Минатите купувања значат дека можеш да ја игнорираш сегашната реакција."
+      },
+      {
+        "id": "c",
+        "en": "Their actual interest and comfort, not just the fact that they reply.",
+        "mk": "Неговиот вистински интерес и удобност, а не само фактот што одговара."
+      },
+      {
+        "id": "d",
+        "en": "A long conversation means the tone must change.",
+        "mk": "Долг разговор значи дека тонот мора да се смени."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Do not assume that a customer is interested simply because they continue replying.",
+    "explanation": {
+      "en": "Replies alone do not show that the customer wants the tone to change.",
+      "mk": "Самите одговори не покажуваат дека клиентот сака промена на тонот."
+    }
+  },
+  {
+    "id": "f-12",
+    "test_key": "final",
+    "unit_id": "flow-purchase",
+    "prompt": {
+      "en": "A buyer says they really liked the content. How should you respond?",
+      "mk": "Купувач вели дека содржината навистина му се допаднала. Како треба да одговориш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Leave the chat immediately.",
+        "mk": "Веднаш напушти го разговорот."
+      },
+      {
+        "id": "b",
+        "en": "React to what they said and keep the conversation going.",
+        "mk": "Одговори на она што го кажал и продолжи го разговорот."
+      },
+      {
+        "id": "c",
+        "en": "Ignore the reaction and paste another offer.",
+        "mk": "Игнорирај ја реакцијата и залепи друга понуда."
+      },
+      {
+        "id": "d",
+        "en": "Ask them to start the conversation again.",
+        "mk": "Побарај повторно да го започне разговорот."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "React to the customer's response first.",
+    "explanation": {
+      "en": "Respond to the customer’s reaction first, rather than ending the chat or ignoring them.",
+      "mk": "Прво одговори на реакцијата на клиентот наместо да го завршиш разговорот или да го игнорираш."
+    }
+  },
+  {
+    "id": "f-13",
+    "test_key": "final",
+    "unit_id": "flow-no-unlock",
+    "prompt": {
+      "en": "A fan is excited about an offer but has not unlocked it. What is true?",
+      "mk": "Фан е возбуден за понуда, но не ја отклучил. Што е точно?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "They are interested, but have not bought the content yet.",
+        "mk": "Заинтересиран е, но сè уште не ја купил содржината."
+      },
+      {
+        "id": "b",
+        "en": "Excitement counts as a completed purchase.",
+        "mk": "Возбудата се смета за завршено купување."
+      },
+      {
+        "id": "c",
+        "en": "Every reply automatically unlocks the content.",
+        "mk": "Секој одговор автоматски ја отклучува содржината."
+      },
+      {
+        "id": "d",
+        "en": "An earlier purchase pays for this offer too.",
+        "mk": "Претходно купување ја плаќа и оваа понуда."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Do not treat continued excitement as equivalent to a completed purchase.",
+    "explanation": {
+      "en": "Interest and a completed purchase are different. Check the actual unlock.",
+      "mk": "Интересот и завршеното купување се различни. Провери го вистинското отклучување."
+    }
+  },
+  {
+    "id": "f-14",
+    "test_key": "final",
+    "unit_id": "flow-no-unlock",
+    "prompt": {
+      "en": "You answer the customer’s questions about an offer, and they clearly decline. What next?",
+      "mk": "Одговараш на прашањата на клиентот за понуда, а тој јасно ја одбива. Што потоа?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Keep repeating it until they buy.",
+        "mk": "Продолжи да ја повторуваш додека не купи."
+      },
+      {
+        "id": "b",
+        "en": "Ignore the refusal because they seemed interested before.",
+        "mk": "Игнорирај го одбивањето затоа што претходно изгледал заинтересиран."
+      },
+      {
+        "id": "c",
+        "en": "Write down the offer as sold.",
+        "mk": "Запиши ја понудата како продадена."
+      },
+      {
+        "id": "d",
+        "en": "Accept their answer and move on from the offer.",
+        "mk": "Прифати го одговорот и продолжи понатаму без понудата."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "If the customer clearly declines, accept the answer.",
+    "explanation": {
+      "en": "Accept a clear decline. Do not keep pushing indefinitely.",
+      "mk": "Прифати јасно одбивање. Не продолжувај бескрајно да притискаш."
+    }
+  },
+  {
+    "id": "f-15",
+    "test_key": "final",
+    "unit_id": "flow-no-pitch",
+    "prompt": {
+      "en": "The first purchase went well, but the customer says no to a later offer. How should you handle that?",
+      "mk": "Првото купување поминало добро, но клиентот одбива подоцнежна понуда. Како треба да постапиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Keep selling because they liked the first purchase.",
+        "mk": "Продолжи да продаваш затоа што му се допаднало првото купување."
+      },
+      {
+        "id": "b",
+        "en": "Assume they agreed to every item when they bought the first.",
+        "mk": "Претпостави дека се согласил на секоја содржина кога ја купил првата."
+      },
+      {
+        "id": "c",
+        "en": "Respect the new response and move back toward normal chat.",
+        "mk": "Почитувај го новиот одговор и врати се кон нормален разговор."
+      },
+      {
+        "id": "d",
+        "en": "Send a higher-priced offer to change their mind.",
+        "mk": "Испрати поскапа понуда за да го смени мислењето."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Move back toward normal chat.",
+    "explanation": {
+      "en": "A previous purchase does not guarantee interest in another offer. Respond to what they want now.",
+      "mk": "Претходно купување не гарантира интерес за друга понуда. Одговори на она што го сака сега."
+    }
+  },
+  {
+    "id": "f-16",
+    "test_key": "final",
+    "unit_id": "flow-no-pitch",
+    "prompt": {
+      "en": "A customer has finished buying and wants to keep chatting normally. What is appropriate?",
+      "mk": "Клиент завршил со купување и сака да продолжи нормално да разговара. Што е соодветно?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Stop replying because there is no new purchase.",
+        "mk": "Престани да одговараш затоа што нема ново купување."
+      },
+      {
+        "id": "b",
+        "en": "Continue the conversation, or end warmly when appropriate.",
+        "mk": "Продолжи го разговорот или заврши топло кога е соодветно."
+      },
+      {
+        "id": "c",
+        "en": "Require another purchase before talking.",
+        "mk": "Побарај ново купување пред да разговараш."
+      },
+      {
+        "id": "d",
+        "en": "Repeat the declined offer immediately.",
+        "mk": "Веднаш повтори ја одбиената понуда."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Wrap up warmly or continue chatting as normal.",
+    "explanation": {
+      "en": "Normal conversation or a warm ending keeps the interaction positive.",
+      "mk": "Нормален разговор или топол крај ја задржува комуникацијата позитивна."
+    }
+  },
+  {
+    "id": "f-17",
+    "test_key": "final",
+    "unit_id": "rapport-practice",
+    "prompt": {
+      "en": "A fan tells you about a stressful workday. What shows that you are listening?",
+      "mk": "Фан ти раскажува за стресен работен ден. Што покажува дека го слушаш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Ask a relevant follow-up about what they shared.",
+        "mk": "Постави соодветно дополнително прашање за она што го споделил."
+      },
+      {
+        "id": "b",
+        "en": "Change to an unrelated sales message.",
+        "mk": "Премини на неповрзана продажна порака."
+      },
+      {
+        "id": "c",
+        "en": "Repeat the question they just answered.",
+        "mk": "Повтори го прашањето на кое штотуку одговорил."
+      },
+      {
+        "id": "d",
+        "en": "Ignore the detail and end the chat.",
+        "mk": "Игнорирај го деталот и заврши го разговорот."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Instead of changing topics immediately, show interest in the answer.",
+    "explanation": {
+      "en": "Show interest in the answer rather than immediately changing the topic.",
+      "mk": "Покажи интерес за одговорот наместо веднаш да ја менуваш темата."
+    }
+  },
+  {
+    "id": "f-18",
+    "test_key": "final",
+    "unit_id": "rapport-practice",
+    "prompt": {
+      "en": "A promise could make an offer sound better, but you cannot be sure the creator can fulfill it. What should you do?",
+      "mk": "Ветување би ја направило понудата попривлечна, но не си сигурен дека креаторката може да го исполни. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Promise it now and check after payment.",
+        "mk": "Вети го сега и провери по плаќањето."
+      },
+      {
+        "id": "b",
+        "en": "Use it because the fan wants to hear it.",
+        "mk": "Користи го затоа што фанот сака да го слушне."
+      },
+      {
+        "id": "c",
+        "en": "Promise the same thing to every customer.",
+        "mk": "Вети го истото на секој клиент."
+      },
+      {
+        "id": "d",
+        "en": "Avoid making a promise you cannot keep.",
+        "mk": "Избегни ветување што не можеш да го исполниш."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Do not pretend to have personal experiences or make commitments on behalf of the creator that you cannot fulfill.",
+    "explanation": {
+      "en": "Do not make commitments for the creator that you cannot fulfill.",
+      "mk": "Не преземај обврски за креаторката што не можеш да ги исполниш."
+    }
+  },
+  {
+    "id": "f-19",
+    "test_key": "final",
+    "unit_id": "daily-offers",
+    "prompt": {
+      "en": "A fan wants a custom video tomorrow. The creator has not confirmed the deadline. What should you do?",
+      "mk": "Фан сака видео по нарачка за утре. Креаторката не го потврдила рокот. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Promise tomorrow because the fan is ready to pay.",
+        "mk": "Вети за утре затоа што фанот е подготвен да плати."
+      },
+      {
+        "id": "b",
+        "en": "Choose a deadline based on a different creator.",
+        "mk": "Одбери рок според друга креаторка."
+      },
+      {
+        "id": "c",
+        "en": "Get the creator’s approval before promising delivery.",
+        "mk": "Добиј одобрение од креаторката пред да ветиш испорака."
+      },
+      {
+        "id": "d",
+        "en": "Promise the date but leave it out of the notes.",
+        "mk": "Вети го датумот, но не го запишувај во белешките."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Never promise a custom video, delivery date, or feature without the creator's authorization.",
+    "explanation": {
+      "en": "Never promise custom content or a delivery date without the creator’s authorization.",
+      "mk": "Никогаш не ветувај содржина по нарачка или датум на испорака без одобрение од креаторката."
+    }
+  },
+  {
+    "id": "f-20",
+    "test_key": "final",
+    "unit_id": "daily-offers",
+    "prompt": {
+      "en": "A customer asks for a price. You remember an example from training. What should determine the actual price?",
+      "mk": "Клиент прашува за цена. Се сеќаваш на пример од обуката. Што треба да ја одреди вистинската цена?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "The example price, regardless of the creator.",
+        "mk": "Примерната цена, без оглед на креаторката."
+      },
+      {
+        "id": "b",
+        "en": "The creator’s agreed pricing for that content.",
+        "mk": "Договорената цена на креаторката за таа содржина."
+      },
+      {
+        "id": "c",
+        "en": "An unapproved discount you make up.",
+        "mk": "Неодобрен попуст што ќе го измислиш."
+      },
+      {
+        "id": "d",
+        "en": "Whatever price the fan requests.",
+        "mk": "Која било цена што ја бара фанот."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "Check the established pricing guidelines.",
+    "explanation": {
+      "en": "Follow the established pricing guidelines. Training examples are not universal prices.",
+      "mk": "Следи ги утврдените правила за цени. Примерите од обуката не се универзални цени."
+    }
+  },
+  {
+    "id": "f-21",
+    "test_key": "final",
+    "unit_id": "daily-offers",
+    "prompt": {
+      "en": "A fan asks what a VIP package includes. What can you offer?",
+      "mk": "Фан прашува што вклучува VIP пакет. Што можеш да понудиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Benefits the creator has approved and can provide.",
+        "mk": "Поволности што креаторката ги одобрила и може да ги обезбеди."
+      },
+      {
+        "id": "b",
+        "en": "Anything that makes the package sound impressive.",
+        "mk": "Што било што го прави пакетот да звучи впечатливо."
+      },
+      {
+        "id": "c",
+        "en": "Every benefit from another creator’s package.",
+        "mk": "Секоја поволност од пакетот на друга креаторка."
+      },
+      {
+        "id": "d",
+        "en": "Benefits you will decide after the fan pays.",
+        "mk": "Поволности што ќе ги одлучиш откако фанот ќе плати."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "Only offer benefits that the creator has approved and can actually provide.",
+    "explanation": {
+      "en": "Only offer approved benefits the creator can actually provide.",
+      "mk": "Нуди само одобрени поволности што креаторката навистина може да ги обезбеди."
+    }
+  },
+  {
+    "id": "f-22",
+    "test_key": "final",
+    "unit_id": "mass-messages",
+    "prompt": {
+      "en": "You are sending a message to reconnect with inactive fans. What should you do about fans already in a live chat?",
+      "mk": "Испраќаш порака за повторно поврзување со неактивни фанови. Што треба да направиш со фановите со кои веќе активно разговараш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Include them automatically because all fans are the same audience.",
+        "mk": "Вклучи ги автоматски затоа што сите фанови се иста публика."
+      },
+      {
+        "id": "b",
+        "en": "Close their active chats before sending.",
+        "mk": "Затвори ги нивните активни разговори пред испраќање."
+      },
+      {
+        "id": "c",
+        "en": "Send everyone a paid offer instead.",
+        "mk": "Наместо тоа, испрати платена понуда до сите."
+      },
+      {
+        "id": "d",
+        "en": "Use the audience filters so they are not automatically included.",
+        "mk": "Користи ги филтрите за да не бидат автоматски вклучени."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "a message intended to restart conversations with inactive customers should not automatically be sent to people who are already engaged in an active conversation.",
+    "explanation": {
+      "en": "Inactive-fan outreach should target the right group rather than automatically interrupt active chats.",
+      "mk": "Пораките за неактивни фанови треба да ја таргетираат соодветната група наместо автоматски да ги прекинуваат активните разговори."
+    }
+  },
+  {
+    "id": "f-23",
+    "test_key": "final",
+    "unit_id": "infloww-shift",
+    "prompt": {
+      "en": "Your shift ends during an unfinished conversation. What is a good handover?",
+      "mk": "Смената завршува за време на незавршен разговор. Како изгледа добро предавање?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Leave without any context for the next chatter.",
+        "mk": "Замини без никаков контекст за следниот чатер."
+      },
+      {
+        "id": "b",
+        "en": "Ask the customer to repeat everything from the start.",
+        "mk": "Побарај клиентот да повтори сè од почеток."
+      },
+      {
+        "id": "c",
+        "en": "Pass the conversation on with a note about its current state.",
+        "mk": "Предај го разговорот со белешка за неговата тековна состојба."
+      },
+      {
+        "id": "d",
+        "en": "Delete the notes so the next shift starts fresh.",
+        "mk": "Избриши ги белешките за следната смена да започне одново."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Hand over mid-deal conversations properly, with a note.",
+    "explanation": {
+      "en": "Hand over unfinished conversations properly with a useful note.",
+      "mk": "Предај ги незавршените разговори правилно, со корисна белешка."
+    }
+  },
+  {
+    "id": "f-24",
+    "test_key": "final",
+    "unit_id": "infloww-shift",
+    "prompt": {
+      "en": "Replies are arriving after your mass message. What should you do now?",
+      "mk": "Пристигнуваат одговори по твојата масовна порака. Што треба да направиш сега?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Log out because the message was sent.",
+        "mk": "Одјави се затоа што пораката е испратена."
+      },
+      {
+        "id": "b",
+        "en": "Stay online and respond to them.",
+        "mk": "Остани онлајн и одговори им."
+      },
+      {
+        "id": "c",
+        "en": "Ignore them until the next mass message.",
+        "mk": "Игнорирај ги до следната масовна порака."
+      },
+      {
+        "id": "d",
+        "en": "Send the same message again without reading replies.",
+        "mk": "Повторно испрати ја истата порака без да ги прочиташ одговорите."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "send, then stay online.",
+    "explanation": {
+      "en": "After sending, stay online to handle the replies.",
+      "mk": "По испраќањето, остани онлајн за да одговориш на пораките."
+    }
+  },
+  {
+    "id": "f-25",
+    "test_key": "final",
+    "unit_id": "support-service",
+    "prompt": {
+      "en": "A fan threatens a chargeback while demanding a refund. Who needs to be informed under the support guide?",
+      "mk": "Фан се заканува со chargeback додека бара поврат на пари. Кој треба да биде известен според водичот за поддршка?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Notify Stefan about the threat.",
+        "mk": "Извести го Стефан за заканата."
+      },
+      {
+        "id": "b",
+        "en": "Promise a refund yourself without informing Stefan.",
+        "mk": "Сам вети поврат без да го известиш Стефан."
+      },
+      {
+        "id": "c",
+        "en": "Ignore the threat if the fan has purchased before.",
+        "mk": "Игнорирај ја заканата ако фанот претходно купувал."
+      },
+      {
+        "id": "d",
+        "en": "Move the complaint to a personal messaging account.",
+        "mk": "Префрли ја поплаката на лична сметка за пораки."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "(Notify Stefan of this).",
+    "explanation": {
+      "en": "The chargeback/refund-threat section explicitly instructs chatters to notify Stefan.",
+      "mk": "Делот за закани со chargeback или поврат изречно бара четерите да го известат Стефан."
+    }
+  },
+  {
+    "id": "f-26",
+    "test_key": "final",
+    "unit_id": "support-boundaries",
+    "prompt": {
+      "en": "A fan offers extra money for content that is not allowed. What should you do?",
+      "mk": "Фан нуди дополнителни пари за содржина што не е дозволена. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Agree because the payment is higher.",
+        "mk": "Прифати затоа што плаќањето е поголемо."
+      },
+      {
+        "id": "b",
+        "en": "Move the request to another platform.",
+        "mk": "Премести го барањето на друга платформа."
+      },
+      {
+        "id": "c",
+        "en": "Take payment first and check the rules later.",
+        "mk": "Прво земи плаќање, па подоцна провери ги правилата."
+      },
+      {
+        "id": "d",
+        "en": "Decline that request and offer only allowed content.",
+        "mk": "Одбиј го барањето и нуди само дозволена содржина."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Redirect to safe content, never entertain illegal/off-limits requests",
+    "explanation": {
+      "en": "Extra payment does not change the boundaries. Decline off-limits requests.",
+      "mk": "Дополнителното плаќање не ги менува границите. Одбиј недозволени барања."
+    }
+  },
+  {
+    "id": "f-27",
+    "test_key": "final",
+    "unit_id": "support-service",
+    "prompt": {
+      "en": "A regular customer wants to continue on your personal messaging account. What should you do?",
+      "mk": "Редовен клиент сака да продолжи на твојата лична сметка за пораки. Што треба да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Move it because they are a regular customer.",
+        "mk": "Премести го затоа што е редовен клиент."
+      },
+      {
+        "id": "b",
+        "en": "Share your personal contact details.",
+        "mk": "Сподели ги твоите лични податоци за контакт."
+      },
+      {
+        "id": "c",
+        "en": "Keep the chat on the approved platform.",
+        "mk": "Задржи го разговорот на одобрената платформа."
+      },
+      {
+        "id": "d",
+        "en": "Move only the payment conversation elsewhere.",
+        "mk": "Премести го само разговорот за плаќање на друго место."
+      }
+    ],
+    "correct": "c",
+    "source_anchor": "Keep the rule firm, never leave the platform",
+    "explanation": {
+      "en": "Keep conversations on the platform, even with regular customers.",
+      "mk": "Задржи ги разговорите на платформата, дури и со редовни клиенти."
+    }
+  },
+  {
+    "id": "f-28",
+    "test_key": "final",
+    "unit_id": "mm-catalog",
+    "prompt": {
+      "en": "Before sending a mass message, some lists are marked as excluded. How should you handle them?",
+      "mk": "Пред испраќање масовна порака, некои листи се означени како исклучени. Како треба да постапиш со нив?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Add everyone back because the message is ready.",
+        "mk": "Врати ги сите затоа што пораката е подготвена."
+      },
+      {
+        "id": "b",
+        "en": "Respect the exclusions and leave those recipients out.",
+        "mk": "Почитувај ги исклучувањата и не ги вклучувај тие приматели."
+      },
+      {
+        "id": "c",
+        "en": "Ignore exclusions whenever fans are online.",
+        "mk": "Игнорирај ги исклучувањата кога фановите се онлајн."
+      },
+      {
+        "id": "d",
+        "en": "Remove exclusions to reach as many people as possible.",
+        "mk": "Отстрани ги исклучувањата за да стигнеш до што повеќе луѓе."
+      }
+    ],
+    "correct": "b",
+    "source_anchor": "And exclude appropriate lists. (DNI, DNMM, VIP)",
+    "explanation": {
+      "en": "Check and respect the appropriate exclusion lists before sending an MM.",
+      "mk": "Провери ги и почитувај ги соодветните листи за исклучување пред да испратиш MM."
+    }
+  },
+  {
+    "id": "f-29",
+    "test_key": "final",
+    "unit_id": "daily-offers",
+    "prompt": {
+      "en": "A new subscriber joins during your shift. What should you do first?",
+      "mk": "Нов претплатник се приклучува за време на твојата смена. Што треба прво да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Welcome them and begin getting to know them.",
+        "mk": "Поздрави го и започни да го запознаваш."
+      },
+      {
+        "id": "b",
+        "en": "Wait for them to buy more before speaking.",
+        "mk": "Почекај да купи повеќе пред да разговараш."
+      },
+      {
+        "id": "c",
+        "en": "Send a premium paid offer as the first message.",
+        "mk": "Испрати премиум платена понуда како прва порака."
+      },
+      {
+        "id": "d",
+        "en": "Promise VIP benefits without checking.",
+        "mk": "Вети VIP поволности без проверка."
+      }
+    ],
+    "correct": "a",
+    "source_anchor": "As soon as you receive a new subscription notification, open a conversation with the subscriber.",
+    "explanation": {
+      "en": "Open a conversation with a new subscriber and build familiarity before selling.",
+      "mk": "Започни разговор со нов претплатник и запознај го пред да продаваш."
+    }
+  },
+  {
+    "id": "f-30",
+    "test_key": "final",
+    "unit_id": "daily-checklist",
+    "prompt": {
+      "en": "You have answered active chats and have some quiet time. What is useful to do?",
+      "mk": "Одговори на активните разговори и имаш малку слободно време. Што е корисно да направиш?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "en": "Repeat declined offers immediately.",
+        "mk": "Веднаш повтори ги одбиените понуди."
+      },
+      {
+        "id": "b",
+        "en": "Send the same VIP offer to everyone.",
+        "mk": "Испрати ја истата VIP понуда до сите."
+      },
+      {
+        "id": "c",
+        "en": "Stop checking messages and notes.",
+        "mk": "Престани да ги проверуваш пораките и белешките."
+      },
+      {
+        "id": "d",
+        "en": "Review previous customers, check new subscribers and update notes.",
+        "mk": "Прегледај претходни клиенти, провери нови претплатници и ажурирај белешки."
+      }
+    ],
+    "correct": "d",
+    "source_anchor": "Continue updating customer information.",
+    "explanation": {
+      "en": "Use quiet periods to review customers, check new subscribers and keep information up to date.",
+      "mk": "Користи ги мирните периоди за преглед на клиенти, проверка на нови претплатници и ажурирање информации."
+    }
+  }
+]

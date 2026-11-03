@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "reason": "User rejected the PPV instructions and required approach in learning material 2. Remove the quoted passage and its repeated operating rule in both languages without adding replacement guidance.",
+  "edits": [
+    {
+      "unit_id": "flow-opening",
+      "language": "en",
+      "field": "body",
+      "before": "## STEP 5 — PPV\n\n**Pacing:** FAST  \n**Message target:** 1 to 5 messages\n\n### Instructions\n\nThe PPV drop must communicate three things:\n\n1. What the content is.\n2. Why the customer would want it.\n3. The price, presented together with the content offer.\n\n### Required approach\n\n- Say what it is.\n- Explain why they would want it.\n- Send the price and the content offer together.\n- Keep the pitch within one to five messages.\n- Once the offer is sent, observe the customer's response.\n\n### Main objective",
+      "after": "## STEP 5 — PPV\n\n**Pacing:** FAST  \n**Message target:** 1 to 5 messages\n\n### Main objective"
+    },
+    {
+      "unit_id": "flow-opening",
+      "language": "mk",
+      "field": "body_mk",
+      "before": "## ЧЕКОР 5 — PPV\n\n**Темпо:** БРЗО\n**Целен број пораки:** 1 до 5 пораки\n\n### Упатства\n\nПри испраќање на PPV мора да се пренесат три работи:\n\n1. Што е содржината.\n2. Зошто клиентот би ја сакал.\n3. Цената, претставена заедно со понудата за содржината.\n\n### Потребен пристап\n\n- Кажи што е.\n- Објасни зошто би ја сакал.\n- Испрати ги цената и понудата за содржината заедно.\n- Задржи ја понудата во една до пет пораки.\n- Откако ќе ја испратиш понудата, следи го одговорот на клиентот.\n\n### Главна цел",
+      "after": "## ЧЕКОР 5 — PPV\n\n**Темпо:** БРЗО\n**Целен број пораки:** 1 до 5 пораки\n\n### Главна цел"
+    },
+    {
+      "unit_id": "flow-reference",
+      "language": "en",
+      "field": "body",
+      "before": "5. **Keep teasing brief.** The flowchart allocates one to five messages for teasing.\n6. **Make the PPV offer clear.** Explain the content, why it is appealing, and its price together.\n7. **Classify the outcome correctly.** An unlock with positive feedback, no unlock with continued excitement, and a negative response lead to different paths.\n",
+      "after": "5. **Keep teasing brief.** The flowchart allocates one to five messages for teasing.\n7. **Classify the outcome correctly.** An unlock with positive feedback, no unlock with continued excitement, and a negative response lead to different paths.\n"
+    },
+    {
+      "unit_id": "flow-reference",
+      "language": "mk",
+      "field": "body_mk",
+      "before": "5. **Задевањето нека биде кратко.** Дијаграмот предвидува една до пет пораки за задевање.\n6. **PPV-понудата нека биде јасна.** Заедно објасни ги содржината, нејзината привлечност и цената.\n7. **Правилно класифицирај го исходот.** Отклучување со позитивна реакција, неотклучување со продолжена возбуда и негативен одговор водат по различни насоки.\n",
+      "after": "5. **Задевањето нека биде кратко.** Дијаграмот предвидува една до пет пораки за задевање.\n7. **Правилно класифицирај го исходот.** Отклучување со позитивна реакција, неотклучување со продолжена возбуда и негативен одговор водат по различни насоки.\n"
+    }
+  ]
+}

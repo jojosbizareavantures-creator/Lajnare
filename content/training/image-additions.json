@@ -1,0 +1,105 @@
+{
+  "source": "User-uploaded Farming and VIP images, 2026-10-27",
+  "images": [
+    {
+      "name": "farm1.png",
+      "title": "How Farming Works",
+      "caption": "Farming · 1 of 5.",
+      "unit": "pitch-examples",
+      "day": 3,
+      "sha256": "41a9d5369916b8db5c08d9e488f65e4f94352cc2a0dfbe9690772cf3c07de844",
+      "width": 1492,
+      "height": 525
+    },
+    {
+      "name": "farm2.png",
+      "title": "The Core of It: Emotion + Upselling",
+      "caption": "Farming · 2 of 5.",
+      "unit": "pitch-examples",
+      "day": 3,
+      "sha256": "044c02fe577c3727ade4e064d838799d5821b8629e8d6cda245dfa8d1c83ae61",
+      "width": 1106,
+      "height": 972
+    },
+    {
+      "name": "farm3.png",
+      "title": "Key Strategies for Farming",
+      "caption": "Farming · 3 of 5.",
+      "unit": "pitch-examples",
+      "day": 3,
+      "sha256": "5a2d46c64e575da21e544d079cb4ace4b6ab64b84c270d380926242ed8b0e6f5",
+      "width": 972,
+      "height": 309
+    },
+    {
+      "name": "farm4.png",
+      "title": "What is a green light response?",
+      "caption": "Farming · 4 of 5.",
+      "unit": "pitch-examples",
+      "day": 3,
+      "sha256": "f2172b16f369f88f2ef0052272dbafde45e9a9874e4322d34b405e70fa5baf94",
+      "width": 1034,
+      "height": 270
+    },
+    {
+      "name": "farm5.png",
+      "title": "Save the Best for Last",
+      "caption": "Farming · 5 of 5.",
+      "unit": "pitch-examples",
+      "day": 3,
+      "sha256": "4d35de1547e31ec592569d990e1d8e19ee489f4767c0ca029333f9eda045e342",
+      "width": 838,
+      "height": 190
+    },
+    {
+      "name": "VIP1.png",
+      "title": "VIP Pitching",
+      "caption": "VIP · 1 of 5.",
+      "unit": "daily-offers",
+      "day": 4,
+      "sha256": "dc90978b8ed38c72448beb85da6520d325bde5cd5abbd6fb01bbc97d5b9794dc",
+      "width": 1053,
+      "height": 481
+    },
+    {
+      "name": "VIP2.png",
+      "title": "Example Conversation",
+      "caption": "VIP · 2 of 5.",
+      "unit": "daily-offers",
+      "day": 4,
+      "sha256": "c2958678080723cea4b02c81e34c0cc1d4890ba9d32f904d19a13762466a15f3",
+      "width": 999,
+      "height": 245
+    },
+    {
+      "name": "VIP3.png",
+      "title": "Pitching the Price Properly",
+      "caption": "VIP · 3 of 5.",
+      "unit": "daily-offers",
+      "day": 4,
+      "sha256": "d00e0f427c4457c2fadc49853613ff604b0db9cbfe717d80b8201c4e90bf4575",
+      "width": 887,
+      "height": 628
+    },
+    {
+      "name": "VIP4.png",
+      "title": "VIP Unlock Sequence",
+      "caption": "VIP · 4 of 5.",
+      "unit": "daily-offers",
+      "day": 4,
+      "sha256": "bca05104d432c9a8957f1263c535064a76123e50f3b89a661cb43e63328c897e",
+      "width": 846,
+      "height": 621
+    },
+    {
+      "name": "VIP5.png",
+      "title": "What’s the Strategy?",
+      "caption": "VIP · 5 of 5.",
+      "unit": "daily-offers",
+      "day": 4,
+      "sha256": "61886f919b09bb97c9ea8d8ae88616b0488815b6070ee9ff0429a9dd785aed69",
+      "width": 964,
+      "height": 700
+    }
+  ]
+}

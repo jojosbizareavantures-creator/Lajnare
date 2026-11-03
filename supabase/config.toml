@@ -1,0 +1,28 @@
+project_id = "evzon"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+
+[db]
+major_version = 17
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[auth]
+enabled = true
+site_url = "https://evzonchatting.com"
+additional_redirect_urls = ["https://evzonchatting.com/auth/confirm", "https://evzonchatting.com/auth/confirm?recovery=1", "https://www.evzonchatting.com/auth/confirm", "https://www.evzonchatting.com/auth/confirm?recovery=1", "http://localhost:3000/auth/confirm", "http://localhost:3000/auth/confirm?recovery=1"]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+
+[functions.evzon-chatter-accounts]
+# The function itself verifies the JWT with getUser and the approved ADMIN role.
+# This matches the current, working deployment; it does not allow public creation.
+verify_jwt = false

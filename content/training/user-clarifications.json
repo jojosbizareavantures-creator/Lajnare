@@ -1,0 +1,278 @@
+{
+  "requested_on": "2026-10-26",
+  "reason": "User requested Stefan as the sole escalation contact and a short clarification that AI-model guidance applies to Fanvue only; EVZON OnlyFans assignments use real models and around 90% of its Fanvue assignments use AI models. User also requested removal of training-video references while preserving the guides.",
+  "edits": [
+    {
+      "unit_id": "support-boundaries",
+      "field": "body",
+      "before": "contact Henry, Toby, or Rose",
+      "after": "contact Stefan"
+    },
+    {
+      "unit_id": "support-boundaries",
+      "field": "body_mk",
+      "before": "контактирај ги Henry, Toby или Rose",
+      "after": "контактирај го Стефан"
+    },
+    {
+      "unit_id": "support-service",
+      "field": "body",
+      "before": "Notify management of this",
+      "after": "Notify Stefan of this"
+    },
+    {
+      "unit_id": "support-service",
+      "field": "body_mk",
+      "before": "Извести го менаџментот за ова",
+      "after": "Извести го Стефан за ова"
+    },
+    {
+      "unit_id": "support-boundaries",
+      "field": "body",
+      "before": "\n1. Are you AI?\n",
+      "after": "\n1. Are you AI? (Fanvue only)\n"
+    },
+    {
+      "unit_id": "support-boundaries",
+      "field": "body_mk",
+      "before": "\n1. Дали си AI?\n",
+      "after": "\n1. Дали си AI? (Само за Fanvue)\n"
+    },
+    {
+      "unit_id": "support-boundaries",
+      "field": "body",
+      "before": "\n## 1. Are you AI?\n",
+      "after": "\n## 1. Are you AI? (Fanvue only)\n\n**Fanvue only:** At EVZON, OnlyFans work is with real models. Around 90% of our Fanvue assignments are with AI models.\n"
+    },
+    {
+      "unit_id": "support-boundaries",
+      "field": "body_mk",
+      "before": "\n## 1. Дали си AI?\n",
+      "after": "\n## 1. Дали си AI? (Само за Fanvue)\n\n**Само за Fanvue:** Во EVZON, на OnlyFans работиме со вистински модели. Околу 90% од нашите ангажмани на Fanvue се со AI-модели.\n"
+    },
+    {
+      "unit_id": "rapport-practice",
+      "field": "body",
+      "before": "The video specifically emphasizes remembering details and bringing them back up.",
+      "after": "Remember details and bring them back up.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "rapport-practice",
+      "field": "body_mk",
+      "before": "Видеото посебно нагласува паметење детали и нивно повторно споменување.",
+      "after": "Памети детали и повторно споменувај ги.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "rapport-practice",
+      "field": "body",
+      "before": "The video’s guidance is to keep showing up. There is no deadline on this path.",
+      "after": "Keep showing up. There is no deadline on this path.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "rapport-practice",
+      "field": "body_mk",
+      "before": "Насоката од видеото е да продолжиш да бидеш присутен. На оваа патека нема рок.",
+      "after": "Продолжи да бидеш присутен. На оваа патека нема рок.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "pitch-examples",
+      "field": "body",
+      "before": "The video provides these price levels:",
+      "after": "Example price levels:",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "pitch-examples",
+      "field": "body_mk",
+      "before": "Видеото ги дава овие ценовни нивоа:",
+      "after": "Примерни ценовни нивоа:",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "aftercare",
+      "field": "body",
+      "before": "The video uses an affectionate follow-up message that communicates enjoyment and asks the customer whether they enjoyed the interaction too.",
+      "after": "An affectionate follow-up message communicates enjoyment and asks the customer whether they enjoyed the interaction too.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "aftercare",
+      "field": "body_mk",
+      "before": "Видеото користи нежна дополнителна порака што пренесува уживање и го прашува клиентот дали и тој уживал во интеракцијата.",
+      "after": "Нежната дополнителна порака пренесува уживање и го прашува клиентот дали и тој уживал во интеракцијата.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "daily-offers",
+      "field": "body",
+      "before": "The video also introduces a Notion price-listing page.\n\nExample prices entered in the lesson include:",
+      "after": "Example prices:",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "daily-offers",
+      "field": "body_mk",
+      "before": "Видеото воведува и страница со ценовник во Notion.\n\nПримерните цени внесени во лекцијата вклучуваат:",
+      "after": "Примерни цени:",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "ppv-momentum",
+      "field": "body",
+      "before": "either send a timed follow-up like in the clip above OR",
+      "after": "either send a timed follow-up OR",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "ppv-momentum",
+      "field": "body_mk",
+      "before": "испрати темпирана дополнителна порака како во клипот погоре ИЛИ",
+      "after": "испрати темпирана дополнителна порака ИЛИ",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-purchase",
+      "field": "body",
+      "before": "*The node's detailed explanatory text is not fully displayed in the recording, so additional rules beyond its label and pacing cannot be confirmed.*",
+      "after": "*Additional rules beyond this node’s label and pacing are not specified.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-purchase",
+      "field": "body_mk",
+      "before": "*Деталниот објаснувачки текст на јазолот не е целосно прикажан во снимката, па не може да се потврдат дополнителни правила освен неговата ознака и темпо.*",
+      "after": "*Не се наведени дополнителни правила освен ознаката и темпото на овој јазол.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-unlock",
+      "field": "body",
+      "before": "*The Stage 2 heading and its transition to the persuasion step are visible in the recording. The detailed instructions are provided in Step 11.*",
+      "after": "*The detailed instructions are provided in Step 11.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-unlock",
+      "field": "body_mk",
+      "before": "*Насловот на Фаза 2 и преминот кон чекорот на убедување се видливи во снимката. Деталните упатства се дадени во Чекор 11.*",
+      "after": "*Деталните упатства се дадени во Чекор 11.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body",
+      "before": "*The detailed explanatory panel for this node is not opened in the recording; the node title and pacing are visible.*",
+      "after": "*Only the node title and pacing are specified.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body_mk",
+      "before": "*Деталниот објаснувачки панел за овој јазол не е отворен во снимката; видливи се насловот на јазолот и темпото.*",
+      "after": "*Наведени се само насловот и темпото на јазолот.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body",
+      "before": "*The node's separate detailed instruction panel is not displayed in the recording.*",
+      "after": "*Separate detailed instructions for this node are not provided.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body_mk",
+      "before": "*Посебниот панел со детални упатства за јазолот не е прикажан во снимката.*",
+      "after": "*Не се дадени посебни детални упатства за овој јазол.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body",
+      "before": "*The recording shows the node and its connection to the next step, but does not expose a detailed instruction panel for this node.*",
+      "after": "*The node and its connection to the next step are specified, but no detailed instructions are provided.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body_mk",
+      "before": "*Снимката го покажува јазолот и неговата врска со следниот чекор, но не открива детален панел со упатства за него.*",
+      "after": "*Наведени се јазолот и неговата врска со следниот чекор, но не се дадени детални упатства.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body",
+      "before": "*No separate detailed instruction panel for this node is displayed in the recording.*",
+      "after": "*No separate detailed instructions are provided for this node.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-no-pitch",
+      "field": "body_mk",
+      "before": "*Во снимката не е прикажан посебен детален панел со упатства за овој јазол.*",
+      "after": "*За овој јазол не се дадени посебни детални упатства.*",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body",
+      "before": "# 9. WHAT THE RECORDING DOES AND DOES NOT ESTABLISH",
+      "after": "# 9. WORKFLOW SCOPE",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body_mk",
+      "before": "# 9. ШТО ПОТВРДУВА И ШТО НЕ ПОТВРДУВА СНИМКАТА",
+      "after": "# 9. ОПФАТ НА РАБОТНИОТ ТЕК",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body",
+      "before": "## Explicitly shown in the recording",
+      "after": "## Included in this workflow",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body_mk",
+      "before": "## Изречно прикажано во снимката",
+      "after": "## Вклучено во овој работен тек",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body",
+      "before": "The recording does not expose detailed instruction panels for every node. In particular, the individual instructions for No Pitch, They Don't Want It Sexual, Relationship Building, and Continue Normal Conversation (No Pitch) are not fully shown.",
+      "after": "Detailed instructions are not provided for every node. In particular, the individual instructions for No Pitch, They Don't Want It Sexual, Relationship Building, and Continue Normal Conversation (No Pitch) are not fully specified.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body_mk",
+      "before": "Снимката не открива детални панели со упатства за секој јазол. Особено, поединечните упатства за Без понуда, Не сака сексуален разговор, Градење однос и Продолжи нормален разговор (без понуда) не се целосно прикажани.",
+      "after": "Не се дадени детални упатства за секој јазол. Особено, поединечните упатства за Без понуда, Не сака сексуален разговор, Градење однос и Продолжи нормален разговор (без понуда) не се целосно наведени.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body",
+      "before": "The recording also does not provide a complete library of verbatim chat messages, specific PPV prices, customer segmentation rules, or platform-specific operating procedures.",
+      "after": "This workflow does not include a complete library of verbatim chat messages, specific PPV prices, customer segmentation rules, or platform-specific operating procedures.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    },
+    {
+      "unit_id": "flow-reference",
+      "field": "body_mk",
+      "before": "Снимката исто така не дава целосна библиотека со дословни пораки, конкретни PPV-цени, правила за сегментација на клиенти или постапки специфични за платформата.",
+      "after": "Овој работен тек не вклучува целосна библиотека со дословни пораки, конкретни PPV-цени, правила за сегментација на клиенти или постапки специфични за платформата.",
+      "reason": "Remove references to a training video, recording or absent clip; keep the instruction or example."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+/* A consistent, keyboard-accessible language control across all site layouts. */
+.language-select{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;min-height:38px;padding:0 10px 0 12px;border:1px solid var(--line2);border-radius:999px;background:transparent;color:var(--text2);transition:border-color .2s,color .2s}
+.language-select:hover{border-color:var(--line3);color:var(--text)}
+.language-select>svg{flex-shrink:0;color:var(--violet-hi)}
+.language-select select{width:112px;min-height:36px;padding:6px 2px;border:0;background:transparent!important;box-shadow:none!important;font:400 12px/1 var(--mono);color:var(--text);cursor:pointer}
+.language-select:focus-within{outline:2px solid var(--violet);outline-offset:3px}
+.language-select select option{background:#0E0E0D;color:var(--text)}
+.auth-page,.auth-shell{position:relative}
+.auth-language{position:absolute;right:28px;top:22px;z-index:5}
+@media(min-width:901px){.auth-form-wrap{padding-top:90px}}
+.auth-shell{padding-top:90px}
+.public-language{order:3}
+.header-inner{gap:20px}
+.marketing-nav{gap:20px;margin-left:auto}
+.portal-topbar-actions{display:flex;align-items:center;gap:16px}
+.topbar-right{gap:12px}
+.nav-group a,.sidebar-bottom>a:not(.website-link){white-space:normal}
+.nav-group a>svg,.sidebar-bottom>a>svg{flex-shrink:0}
+.nav-group a>span{line-height:1.45}
+html[lang=mk] .marketing-brand small{font-size:8px;letter-spacing:.08em}
+html[lang=mk] .hero-copy h1{font-size:clamp(36px,6.4vw,104px);letter-spacing:-.045em;overflow-wrap:break-word}
+html[lang=mk] .auth-story h1{font-size:clamp(40px,5vw,80px)}
+html[lang=mk] .page-intro h1{font-size:clamp(35px,4.7vw,75px)!important}
+html[lang=mk] .closing-cta h2{font-size:clamp(35px,4.5vw,74px)!important}
+html[lang=mk] .refer-hero h1{font-size:clamp(38px,4.9vw,78px)}
+html[lang=mk] .marketing-button{white-space:normal;text-align:left}
+html[lang=mk] .marketing-button>svg{flex-shrink:0}
+html[lang=mk] .marquee-group>span{font-size:clamp(20px,2.2vw,32px)}
+@media(max-width:1240px){
+ .marketing-menu{display:grid;place-items:center;order:4;width:42px;height:42px;padding:0;border:1px solid var(--line2);border-radius:50%;color:var(--text);transition:border-color .2s}
+ .marketing-menu:hover{border-color:var(--line3)}
+ .public-language{order:2;margin-left:auto}
+ .marketing-nav{display:none;position:absolute;left:0;right:0;top:84px;flex-direction:column;align-items:stretch;gap:4px;max-height:calc(100dvh - 84px);overflow:auto;margin-left:0;padding:16px max(24px,calc((100% - 1280px)/2)) 24px;background:#070707;border-bottom:1px solid var(--line2);box-shadow:0 24px 40px rgba(0,0,0,.6);animation:rise-in .35s var(--ease)}
+ .marketing-nav.is-open{display:flex}
+ .marketing-nav>a{padding:14px 4px;border-bottom:1px solid var(--line);font-size:20px;font-weight:500}
+ .marketing-nav>a:hover{font-weight:650}
+ .marketing-nav>a[aria-current=page]{color:var(--violet-hi)}
+ .marketing-nav>a[aria-current=page]:after{display:none}
+ .marketing-nav .nav-apply{justify-content:center;margin-top:14px;padding:15px;border-bottom:0;font-size:15px}
+ .marketing-nav .nav-login{justify-content:center;padding:14px;border-bottom:0;font-size:15px}
+ .topbar-right .global-search,.topbar-right .saved{display:none}
+}
+@media(max-width:900px){.marketing-nav{top:76px;max-height:calc(100dvh - 76px)}}
+@media(max-width:650px){
+ .header-inner{gap:10px}
+ .marketing-nav{top:70px;max-height:calc(100dvh - 70px)}
+ .marketing-brand{gap:8px;font-size:18px}
+ .marketing-brand small,html[lang=mk] .marketing-brand small{font-size:6.5px}
+ .language-select{gap:4px;padding-left:9px;padding-right:6px}
+ .language-select select{width:auto;font-family:var(--font);font-size:16px}
+ .auth-language{top:16px;right:18px}
+ .auth-page .auth-story{padding-top:76px}
+ .topbar{height:auto;min-height:60px;flex-wrap:wrap;gap:10px;padding-block:10px}
+ .topbar .breadcrumbs{flex:1;min-width:100px}
+ .topbar-right{flex-wrap:wrap;gap:10px}
+ .topbar-right>.top-avatar{display:none}
+ .portal-topbar-actions>span{display:none}
+ .portal-topbar-actions{gap:8px}
+ html[lang=mk] .hero-copy h1{font-size:clamp(35px,10.1vw,63px)}
+}
+@media(max-width:380px){.marketing-container.header-inner{width:calc(100% - 24px);gap:6px}.marketing-brand .brand-mark{width:20px}.language-select>svg{display:none}.language-select{padding:0 6px 0 10px}.marketing-menu{width:38px;height:38px}.marketing-brand{font-size:16px}.marketing-brand small{letter-spacing:.1em}}

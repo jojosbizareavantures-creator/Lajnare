@@ -1,0 +1,52 @@
+{
+  "project": "EVZON",
+  "exported_at": "2026-11-03",
+  "source_commit": "dbb7636c105ac5d4845e31a0f368ad63d9ec8715",
+  "source_site": "https://evzon-operations.socialrook33.chatgpt.site",
+  "target": "Vercel / Next.js / Supabase",
+  "domain": "evzonchatting.com",
+  "supabase_project": "pgoypntgazhwacbuikzl",
+  "database_migrations": 23,
+  "course_chapters": 34,
+  "course_images": 25,
+  "assessment_questions": 155,
+  "private_user_data_included": false,
+  "secrets_included": false,
+  "pending_unpublished_guide_replacement_included": false,
+  "changes": [
+    "Standard next dev/build/start scripts and npm lockfile",
+    "Runtime environment uses process.env",
+    "Application IP observation uses Vercel request metadata",
+    "Next.js proxy preserves response-security headers",
+    "Current Supabase migration history and live chatter-account function",
+    "Empty-project-only current course and assessment seed",
+    "GA4 public-page tracking with consent, sanitized pageviews and bilingual preference controls"
+  ],
+  "verification": {
+    "node": "22.23.4",
+    "next_build": "passed",
+    "typescript": "passed",
+    "application_tests": {
+      "passed": 136,
+      "failed": 0
+    },
+    "source_fidelity": "passed",
+    "live_training_source_comparison": "34/34 match",
+    "production_http_smoke": {
+      "checked_routes": 18,
+      "result": "passed",
+      "protected_api_result": "401 without a session",
+      "production_records_written": 0
+    },
+    "credential_scan": "passed"
+  },
+  "google_analytics": {
+    "measurement_id": "G-15PY8YRJ87",
+    "configured_in_code": true,
+    "live_collection_verified": false,
+    "scope": "Public marketing pages and application page only",
+    "consent_required": true,
+    "query_strings_removed": true,
+    "advertising_features": false
+  }
+}

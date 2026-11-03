@@ -1,0 +1,149 @@
+{
+  "source": "Pasted text(4).txt",
+  "sha256": "8ce2cc05b9405a0815753c2c8adae2eabd28b777a126538ef9a255de4d46fce5",
+  "normalized_sha256": "96ea3ce7c6413feb55509feda68f7fd11850ba1a8a8e9dc00f0990b1f05d0137",
+  "verbatim": true,
+  "units": 25,
+  "days": {
+    "1": [
+      "foundations",
+      "workspace",
+      "insights-notes",
+      "tools-library",
+      "infloww-shift"
+    ],
+    "2": [
+      "flow-intro",
+      "flow-opening",
+      "flow-purchase",
+      "flow-no-unlock",
+      "flow-no-pitch",
+      "flow-reference",
+      "no-pitch-practice",
+      "rapport-practice"
+    ],
+    "3": [
+      "pitch-method",
+      "pitch-timing",
+      "pitch-examples",
+      "aftercare"
+    ],
+    "4": [
+      "support-boundaries",
+      "support-service",
+      "mass-messages",
+      "daily-offers",
+      "records-retention",
+      "daily-followups",
+      "shift-preparation",
+      "daily-checklist"
+    ]
+  },
+  "images": [
+    {
+      "name": "ppv7.png",
+      "title": "Transitioning into the PPV",
+      "caption": "Small-talk and transition reference slide.",
+      "unit": "pitch-timing",
+      "day": 3
+    },
+    {
+      "name": "ppv8.png",
+      "title": "General transition strategies",
+      "caption": "A reference slide about the transition to a PPV sale.",
+      "unit": "pitch-timing",
+      "day": 3
+    },
+    {
+      "name": "ppv1.png",
+      "title": "Sending the PPV",
+      "caption": "A slide about selecting content and personalizing captions.",
+      "unit": "pitch-examples",
+      "day": 3
+    },
+    {
+      "name": "ppv2.png",
+      "title": "How to write PPVs",
+      "caption": "A source checklist for writing PPV messages.",
+      "unit": "pitch-examples",
+      "day": 3
+    },
+    {
+      "name": "ppv3.png",
+      "title": "Caption examples · set one",
+      "caption": "Two supplied message examples.",
+      "unit": "pitch-examples",
+      "day": 3
+    },
+    {
+      "name": "ppv4.png",
+      "title": "Caption examples · set two",
+      "caption": "Three supplied message examples.",
+      "unit": "pitch-examples",
+      "day": 3
+    },
+    {
+      "name": "ppv5.png",
+      "title": "Engagement after the PPV",
+      "caption": "The supplied post-PPV engagement slide.",
+      "unit": "aftercare",
+      "day": 3
+    },
+    {
+      "name": "ppv6.png",
+      "title": "Long-term fan retention",
+      "caption": "The supplied retention and notes slide.",
+      "unit": "aftercare",
+      "day": 3
+    },
+    {
+      "name": "MM1.png",
+      "title": "MM1 · Wordplay opener",
+      "caption": "An opener followed by three paired follow-up groups.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM2.png",
+      "title": "MM2 · Pop-culture opener",
+      "caption": "A pop-culture opening and its follow-ups.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM3.png",
+      "title": "MM3 · Secret-themed opener",
+      "caption": "A curiosity-led opening and follow-up sequence.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM4.png",
+      "title": "MM4 · Anecdote structure",
+      "caption": "An opening with labeled FU1–FU3 follow-ups.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM5.png",
+      "title": "MM5 · Recurring-theme sequence",
+      "caption": "Several follow-up paragraphs using one theme.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM6.png",
+      "title": "MM6 · Extended-metaphor sequence",
+      "caption": "An opening with labeled FU1–FU4 follow-ups.",
+      "unit": "mass-messages",
+      "day": 4
+    },
+    {
+      "name": "MM7.png",
+      "title": "MM7 · Preference-question opener",
+      "caption": "An opening question and follow-up sequence.",
+      "unit": "mass-messages",
+      "day": 4
+    }
+  ]
+}

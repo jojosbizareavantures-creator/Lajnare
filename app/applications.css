@@ -1,0 +1,48 @@
+/* Candidate application form and the admin application review. */
+.application-form-card{margin-top:32px;padding:clamp(22px,4vw,44px);background:#090909;border:1px solid var(--line2);border-radius:28px}
+.candidate-application{display:grid;gap:26px}
+.candidate-application fieldset{min-width:0;margin:0;padding:0;border:0}
+.candidate-application legend{margin-bottom:20px;font-size:22px;font-weight:700;letter-spacing:-.03em}
+.candidate-application fieldset+fieldset{padding-top:26px;border-top:1px solid var(--line)}
+.candidate-application .field small,.form-help{font-size:12.5px;line-height:1.7;color:var(--faint)}
+.candidate-application output{display:flex;align-items:center;min-height:46px;font-size:14px;color:var(--text2)}
+.application-requirements{display:flex;flex-wrap:wrap;gap:10px}
+.application-requirements span{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid var(--line2);border-radius:999px;font:400 12px/1.3 var(--mono);color:var(--text2)}
+.application-requirements svg{color:var(--violet)}
+.application-privacy-box{padding:22px;background:#0C0C0B;border:1px solid var(--line2);border-radius:20px}
+.application-privacy-box h3{margin:0 0 12px;font-size:16px}
+.application-privacy-box p{margin:8px 0;font-size:13px;line-height:1.8;color:var(--muted)}
+.candidate-application>.marketing-button{justify-self:start}
+.marketing-button:disabled{opacity:.55;cursor:wait}
+.application-error{padding:15px 16px;background:rgba(255,138,138,.07);border:1px solid rgba(255,138,138,.4);border-radius:14px;color:#FFB3B3;font-size:13.5px;line-height:1.7}
+.application-success{padding:20px 0;animation:rise-in .6s var(--ease)}
+.application-success>svg{margin-bottom:20px;color:var(--green)}
+.application-success h2{font-size:clamp(32px,4vw,48px)!important}
+.application-success p{margin:18px 0;line-height:1.8;color:var(--text2)}
+.application-success .marketing-button{margin-top:10px}
+.application-details-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:10px 0 26px}
+.application-details-grid dt{margin-bottom:8px;font:500 10.5px/1.3 var(--mono);color:var(--faint)}
+.application-details-grid dd{margin:0;text-align:left;white-space:normal;font-size:14px;overflow-wrap:anywhere}
+.application-written{display:grid;gap:20px;padding-top:24px;border-top:1px solid var(--line)}
+.application-written h3{margin-bottom:8px;font:500 11px/1.3 var(--mono);color:var(--muted)}
+.application-written p{font-size:14px;line-height:1.8;color:var(--text2);white-space:pre-wrap;overflow-wrap:anywhere}
+.application-detail>.btn{margin-bottom:22px}
+.application-agent summary{cursor:pointer;font-size:13px;color:var(--text2)}
+.application-agent p{margin-top:12px;font:400 11.5px/1.8 var(--mono);color:var(--faint);overflow-wrap:anywhere}
+.application-filters{display:flex;flex-wrap:wrap;align-items:flex-end;gap:15px;margin-bottom:22px}
+.application-filters .field:first-child{flex:1;min-width:220px}
+.application-filters .field:nth-child(2){min-width:180px}
+.application-pagination{display:flex;justify-content:flex-end;gap:12px;margin-top:22px}
+.application-detail{outline:none}
+.application-detail .field textarea{min-height:140px}
+.application-detail .stack>.btn{align-self:flex-start}
+.application-next{margin-top:40px;padding-top:32px;border-top:1px solid var(--line)}
+.marketing .application-next h2{font-size:clamp(28px,3.2vw,40px)}
+.application-next ol{display:grid;gap:16px;margin:22px 0 28px;padding-left:22px;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.application-next li::marker{font:500 13px var(--mono);color:var(--violet-hi)}
+.application-next li>b{font-weight:600;color:var(--text)}
+.application-guide-links{display:flex;flex-direction:column;gap:12px}
+.application-guide-links a{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:var(--violet-hi);transition:color .25s,gap .3s var(--ease)}
+.application-guide-links a:hover{gap:14px;color:var(--text)}
+@media(max-width:760px){.application-details-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.application-filters{align-items:stretch}.application-filters .field{flex-basis:100%}.application-filters>.btn{align-self:flex-start}}
+@media(max-width:500px){.application-details-grid{grid-template-columns:minmax(0,1fr)}.application-requirements{gap:8px}.candidate-application .form-grid{grid-template-columns:minmax(0,1fr)}.application-form-card{padding:22px 18px;border-radius:22px}.candidate-application .marketing-button{width:100%;justify-content:center}.application-public{padding-inline:18px}}

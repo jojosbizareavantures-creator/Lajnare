@@ -1,0 +1,44 @@
+{
+  "questions": 155,
+  "tests": {
+    "practice-1": 25,
+    "practice-2": 25,
+    "practice-3": 25,
+    "practice-4": 25,
+    "practice-5": 25,
+    "final": 30
+  },
+  "languages": [
+    "en",
+    "mk"
+  ],
+  "source": "content/training/curriculum.json",
+  "source_sha256": "87cff929c496dbdccce9a0b33a942c6cb02c301e7d14e5296c679c76c062993c",
+  "practice_rule": "Complete all five tests, regardless of score.",
+  "final_rule": "One admin authorization per attempt; scoring and feedback happen on the server.",
+  "source_units": [
+    "aftercare",
+    "daily-checklist",
+    "daily-followups",
+    "daily-offers",
+    "flow-intro",
+    "flow-no-pitch",
+    "flow-no-unlock",
+    "flow-opening",
+    "flow-purchase",
+    "foundations",
+    "infloww-shift",
+    "insights-notes",
+    "mass-messages",
+    "mm-catalog",
+    "pitch-timing",
+    "ppv-momentum",
+    "rapport-practice",
+    "records-retention",
+    "shift-preparation",
+    "support-boundaries",
+    "support-service",
+    "tools-library",
+    "workspace"
+  ]
+}

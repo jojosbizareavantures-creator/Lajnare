@@ -1,0 +1,6 @@
+import {authRedirectUrl} from '@/lib/site-config';
+import {server,identity,rpc,unavailable,anonymousClient} from '@/lib/supabase-server';
+import {checkOrigin,readJson,CloudError,authFields} from '@/lib/cloud-contract';
+export const dynamic='force-dynamic';
+export async function GET(req:Request){let s;try{s=server(req);}catch{return unavailable();}try{await identity(s.client);return s.json(await rpc(s.client,'evzon_portal'));}catch(e){return s.fail(e);}}
+export async function POST(req:Request){let s;try{s=server(req);}catch{return unavailable();}try{checkOrigin(req);const me=await identity(s.client),v=await readJson(req);if(v.action==='create-account'){if(me.role!=='ADMIN'||me.status!=='Approved')throw new CloudError(403,'Admin access required.');const fields=authFields(v.data,true);const {error}=await anonymousClient().auth.signUp({...fields,options:{data:{name:v.data.name},emailRedirectTo:authRedirectUrl(req)}});if(error)throw new CloudError(422,error.message);return s.json(await rpc(s.client,'evzon_portal'));}if(!['audit','profile','submit','account','referral','workday','finalize','reward','config','refresh'].includes(v.action))throw new CloudError(422,'Unknown action.');return s.json(await rpc(s.client,'evzon_command',{p_action:v.action,p_data:v.data||{}}));}catch(e){return s.fail(e);}}

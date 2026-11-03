@@ -1,0 +1,51 @@
+/* Navigation feedback, application alerts, the path notice and referral payment clarity. */
+.navigation-status{position:fixed;bottom:24px;left:50%;z-index:200;max-width:calc(100vw - 32px);padding:13px 22px;transform:translateX(-50%);background:var(--text);color:#050505;border-radius:999px;box-shadow:0 16px 40px rgba(0,0,0,.5);font-size:13px;font-weight:600;line-height:1.5;animation:toast-in .35s var(--ease)}
+.navigation-error{display:flex;align-items:center;gap:18px;background:#240C10;border:1px solid rgba(255,138,138,.45);color:#FFD6DA}
+.navigation-error button{flex-shrink:0;color:inherit;text-decoration:underline;text-underline-offset:4px}
+.join-purpose{margin:24px 0;padding:22px 24px;text-align:left;background:rgba(142,107,255,.05);border:1px solid rgba(142,107,255,.35);border-radius:20px}
+.join-purpose-heading{display:flex;align-items:center;gap:10px;font-size:15px;line-height:1.5;color:var(--text)}
+.join-purpose-heading svg{flex-shrink:0;color:var(--violet)}
+.join-purpose p{margin:10px 0 14px!important;font-size:13.5px!important;line-height:1.8!important;color:var(--text2)!important}
+.join-purpose a{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;line-height:1.7;color:var(--violet-hi);transition:color .25s,gap .3s var(--ease)}
+.join-purpose a:hover{gap:12px;color:var(--text)}
+.join-purpose a:focus-visible{outline:2px solid var(--violet);outline-offset:5px}
+.admin-notifications{position:relative;display:flex;align-items:center}
+.notification-trigger{position:relative;display:grid;place-items:center;min-width:36px;min-height:36px;border:1px solid var(--line2);border-radius:50%;color:var(--text2);transition:border-color .2s,color .2s}
+.notification-trigger:hover{border-color:var(--line3);color:var(--text)}
+.notification-count{position:absolute;right:-6px;top:-5px;min-width:19px;height:19px;padding:0 4px;border:2px solid var(--bg);border-radius:999px;background:var(--violet);color:var(--violet-ink);font:700 9.5px/15px var(--mono);text-align:center}
+.notification-count.notification-error{background:var(--amber)}
+.notification-panel{position:absolute;z-index:70;right:-10px;top:48px;width:390px;max-width:calc(100vw - 24px);overflow:hidden;text-align:left;background:#0A0A09;border:1px solid var(--line2);border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.7);animation:rise-in .3s var(--ease)}
+.notification-panel>header{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--line)}
+.notification-panel header b{font-size:15px;font-weight:650}
+.notification-panel header small{display:block;margin-top:4px;font:400 11px/1.3 var(--mono);color:var(--faint)}
+.notification-panel button{padding:7px;color:var(--text2)}
+.notification-list{max-height:380px;overflow:auto;overscroll-behavior:contain}
+.notification-list>p{padding:20px}
+.notification-list article{display:flex;align-items:flex-start;gap:13px;padding:17px 20px;border-bottom:1px solid var(--line);transition:background-color .2s}
+.notification-list article:hover{background:#0F0F0E}
+.notification-list article.unread{background:rgba(142,107,255,.06);box-shadow:inset 3px 0 0 var(--violet)}
+.notification-list article>svg{flex-shrink:0;margin-top:4px;color:var(--violet-hi)}
+.notification-list article>div{flex:1;min-width:0}
+.notification-list article a{display:flex;flex-direction:column;gap:3px;overflow-wrap:anywhere}
+.notification-list article b{font-size:13px;font-weight:600}
+.notification-list article span{font-size:12px;color:var(--muted)}
+.notification-list article time{display:block;margin-top:7px;font:400 10.5px/1.3 var(--mono);color:var(--faint)}
+.notification-empty{display:flex;flex-direction:column;align-items:center;gap:12px;padding:32px 25px;text-align:center;color:var(--violet-hi)}
+.notification-empty p{font-size:13px}
+.notification-panel>footer{display:flex;flex-direction:column;gap:12px;padding:15px 20px;background:#070707;border-top:1px solid var(--line)}
+.notification-panel footer>a{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:600;color:var(--violet-hi)}
+.notification-panel footer small{font-size:11px;line-height:1.6;color:var(--faint)}
+.notification-feedback{padding:13px 20px;font-size:12px;line-height:1.7;color:var(--amber)}
+.notification-toast{position:fixed;top:84px;right:24px;z-index:80;display:flex;align-items:center;gap:15px;max-width:min(400px,calc(100vw - 32px));padding:16px 20px;background:#0A0A09;border:1px solid rgba(142,107,255,.45);border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.6);color:var(--violet-hi);animation:rise-in .35s var(--ease)}
+.notification-toast a{display:flex;flex-direction:column;gap:4px;overflow-wrap:anywhere}
+.notification-toast b{font-size:13px;color:var(--text)}
+.notification-toast span{font-size:12.5px;color:var(--text2)}
+.notification-toast button{margin-left:12px;color:var(--muted)}
+.referrer-payouts .payout-filters{align-items:flex-end;margin-bottom:15px}
+.referrer-payouts .compact-metrics{margin-top:20px}
+.referrer-payouts .metric:first-child{background:linear-gradient(180deg,rgba(127,211,166,.1),transparent 80%),var(--surface)}
+.referrer-payouts .metric-label{min-height:28px}
+.referrer-payouts .info-banner{margin-top:20px;line-height:1.8}
+#referrer-reward-details{scroll-margin-top:90px}
+.auth-resend{display:block;margin-top:18px;padding:0;text-align:left;font-size:12.5px;color:var(--violet-hi);text-decoration:underline;text-decoration-color:rgba(184,165,255,.4);text-underline-offset:4px}
+@media(max-width:700px){.notification-panel{position:fixed;right:12px;top:64px;width:390px}.notification-list{max-height:45vh}.notification-toast{top:70px;right:16px}.referrer-payouts .payout-filters{flex-wrap:wrap}.referrer-payouts .metric-label{min-height:35px}.notification-panel>header{padding:15px 18px}}
